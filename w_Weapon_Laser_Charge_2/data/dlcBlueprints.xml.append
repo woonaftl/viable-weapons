@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the upgraded version -->
+<mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN_PLAYER">
+	<mod-overwrite:cost>55</mod-overwrite:cost> <!-- 30 changed to 55 for consistency -->
+	<mod-overwrite:fireChance>1</mod-overwrite:fireChance> <!-- 0 changed to 1 -->
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_CHARGEGUN">
+	<mod-overwrite:rarity>1</mod-overwrite:rarity> <!-- 3 changed to 1 -->
+	<mod-overwrite:fireChance>1</mod-overwrite:fireChance> <!-- 0 changed to 1 -->
+</mod:findName>

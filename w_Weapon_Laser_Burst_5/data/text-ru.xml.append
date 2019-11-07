@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_BURST_5" language="ru">Улучшить залповый лазер мод. III.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_BURST_5" language="ru">Попытаться улучшить залповый лазер мод. III (возможен неблагоприятный исход).</text>
+
+<text name="W_LASER_BURST_5_UPGRADED_title" language="ru">Залповый лазер мод. III+</text>
+<text name="W_LASER_BURST_5_UPGRADED_short" language="ru">Залп. лазер III+</text>

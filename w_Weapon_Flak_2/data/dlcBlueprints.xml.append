@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="DLC_WEAPONS">
+	<mod-append:name>W_SHOTGUN_BASIC</mod-append:name>
+</mod:findName>
+
+<weaponBlueprint name="W_SHOTGUN_BASIC">
+	<type>BURST</type>
+	<flavorType id="weapon_SHOTGUN_flavorType"/>
+	<title id="W_SHOTGUN_BASIC_title"/>
+	<short id="W_SHOTGUN_BASIC_short"/>
+	<tip>tip_flak</tip>
+	<desc id="W_SHOTGUN_BASIC_desc"/>
+	<tooltip id="W_SHOTGUN_BASIC_tooltip"/>
+	<radius>38</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<drone_targetable>1</drone_targetable>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>16</cooldown>
+	<power>1</power>
+	<cost>50</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="1" fake="false">debris_large</projectile>
+		<projectile count="1" fake="false">debris_med</projectile>
+		<projectile count="2" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_flak_2</weaponArt>
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>W_SHOTGUN_BASIC</mod-append:name> 
+</mod:findName>

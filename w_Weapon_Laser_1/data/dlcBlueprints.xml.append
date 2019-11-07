@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>LASER_BURST_1</mod-append:name> 
+</mod:findName>

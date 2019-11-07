@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_CRYSTAL_CHARGE_2" language="ru">Улучшить кристалл с накопителем.</text>
+<text name="W_UPGRADE_FREE_TEXT_CRYSTAL_CHARGE_2" language="ru">Попытаться улучшить кристалл с накопителем (возможен неблагоприятный исход).</text>
+
+<text name="W_CRYSTAL_CHARGE_2_title" language="ru">Кристалл с накопителем</text>
+<text name="W_CRYSTAL_CHARGE_2_short" language="ru">Н. крист.</text>
+<text name="W_CRYSTAL_CHARGE_2_desc" language="ru">Модифицированное кинетическое оружие. Выпускает до 2 пробивающих щиты кристаллов.</text>
+<text name="W_CRYSTAL_CHARGE_2_tooltip" language="ru">Пробивает 1 уровень щитов; выпускает до 2 кристаллов, каждый из которых наносит 2 ед. урона.</text>
+
+<text name="W_CRYSTAL_CHARGE_2_UPGRADED_title" language="ru">Кристалл с накопителем+</text>
+<text name="W_CRYSTAL_CHARGE_2_UPGRADED_short" language="ru">Н. крист.+</text>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_SHOTGUN" language="ru">Улучшить залповое орудие мод. I.</text>
+<text name="W_UPGRADE_FREE_TEXT_SHOTGUN" language="ru">Попытаться улучшить залповое орудие мод. I (возможен неблагоприятный исход).</text>
+
+<mod:findName type="text" name="weapon_SHOTGUN_desc">
+	<mod:setValue>Производит залп осколками в случайную зону, нанося до 4 ед. урона. Эффективен против щитов, но плохо подходит для прицельного огня.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_tooltip">
+	<mod:setValue>Производит залп осколками в случайную зону, нанося до 4 ед. урона.</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_title">
+	<mod:setValue>Залповое орудие мод. I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_short">
+	<mod:setValue>Залп I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_desc">
+	<mod:setValue>Производит залп осколками в случайную зону, нанося до 4 ед. урона. Эффективен против щитов, но плохо подходит для прицельного огня.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_tooltip">
+	<mod:setValue>Производит залп осколками в случайную зону, нанося до 4 ед. урона.</mod:setValue>
+</mod:findName>

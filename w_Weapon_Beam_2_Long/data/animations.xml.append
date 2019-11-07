@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_beam_2_long" w="612" h="67" fw="34" fh="67">weapons/w_beam_2_long_strip18.png</animSheet>
+
+<weaponAnim name="w_beam_2_long">
+	<sheet>w_beam_2_long</sheet>
+	<desc length="18" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="17" y="33"/>
+	<mountPoint x="5" y="56"/>
+	<chargeImage>weapons/w_beam_2_long_glow.png</chargeImage>
+</weaponAnim>

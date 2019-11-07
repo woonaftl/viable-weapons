@@ -1,0 +1,7 @@
+<metadata>
+<author>Woona</author>
+<desc>Common lists for upgrade events. Make sure the lists are not empty!</desc>
+<changelog>You can now upgrade weapons in special events. Upgraded weapon uses 1 less power and charges faster (1 sec charge time difference, with exception of charge and chain weapons).
+Weapons that cost 1 power cannot be upgraded.
+Missiles cannot be upgraded as all missiles available to players are already upgraded. Enemies use unupgraded missiles.</changelog>
+</metadata>

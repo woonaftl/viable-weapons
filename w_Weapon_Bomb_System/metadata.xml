@@ -1,0 +1,7 @@
+<metadata>
+<author>Woona</author>
+<desc>System bomb.</desc>
+<changelog>Small bomb replaced with Flash bomb which does nothing else except dealing 2 damage to system.
+Flash bomb scrap cost: 45 -> 40.
+Enemies use unupgraded version of flash bomb (2 power, 14 sec charge time).</changelog>
+</metadata>

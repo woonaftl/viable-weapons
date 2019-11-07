@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MISSILES_FIRE_title" language="ru">Ракет. установка «Прометей»</text>
+<text name="W_MISSILES_FIRE_short" language="ru">Прометей</text>
+<text name="W_MISSILES_FIRE_desc" language="ru">Каждая выпущенная из этой установки ракета наносит существенный урон корпусу и начинает пожар в отсеке.</text>
+<text name="W_MISSILES_FIRE_tooltip" language="ru">Выпускает 1 ракету на 3 ед. урона; пробивает любые щиты; начинает пожар в отсеке.</text>
+
+<text name="W_MISSILES_FIRE_UPGRADED_title" language="ru">Ракет. установка «Прометей»+</text>
+<text name="W_MISSILES_FIRE_UPGRADED_short" language="ru">Прометей+</text>

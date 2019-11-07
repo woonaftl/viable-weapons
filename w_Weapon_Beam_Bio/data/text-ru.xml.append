@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_BIO" language="ru">Улучшить биоразрушающий луч.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_BIO" language="ru">Попытаться улучшить биоразрушающий луч (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_BIO_UPGRADED_title" language="ru">Биоразрушающий луч+</text>
+<text name="W_BEAM_BIO_UPGRADED_short" language="ru">Биоразр. луч+</text>
+
+<mod:findName type="text" name="weapon_BEAM_BIO_desc">
+	<mod:setValue>Устрашающие лучи этой установки не наносят повреждений кораблю, но рвут на части органику, парализуя и нанося урон экипажу.</mod:setValue>
+</mod:findName>

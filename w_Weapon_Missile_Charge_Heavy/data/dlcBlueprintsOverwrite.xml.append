@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_MISSILES_EVENTS">
+	<mod-append:name>W_MISSILES_CHARGE_HEAVY</mod-append:name>
+	<mod-append:name>W_MISSILES_CHARGE_HEAVY_UPGRADED</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_REBEL">
+	<mod-append:name>W_MISSILES_CHARGE_HEAVY</mod-append:name> 
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_ROCK">
+	<mod-append:name>W_MISSILES_CHARGE_HEAVY</mod-append:name> 
+</mod:findName>

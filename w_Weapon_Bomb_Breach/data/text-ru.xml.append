@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_title">
+	<mod:setValue>Пробоинная бомба</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_short">
+	<mod:setValue>Проб.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_desc">
+	<mod:setValue>Телепортируемое взрывное устройство. Создает пробоину в корпусе. Можно направить на собственный корабль.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_tooltip">
+	<mod:setValue>Бомба; использует боеголовку; оставляет пробоину. Можно направить на собственный корабль.</mod:setValue>
+</mod:findName>

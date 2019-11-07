@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_4" language="ru">Улучшить ионную пушку с накопителем мод. II.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_4" language="ru">Попытаться улучшить ионную пушку с накопителем мод. II (возможен неблагоприятный исход).</text>
+
+<text name="W_ION_4_UPGRADED_title" language="ru">Ионная пушка с накопителем мод. II+</text>
+<text name="W_ION_4_UPGRADED_short" language="ru">Н. ион II+</text>
+
+<mod:findName type="text" name="weapon_ION_4_title">
+	<mod:setValue>Ионная пушка с накопителем мод. II</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_4_short">
+	<mod:setValue>Н. ион II</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_4_desc">
+	<mod:setValue>Это ионное оружие может накапливать заряды, чтобы выпустить их одной очередью.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_4_tooltip">
+	<mod:setValue>Чем дольше накапливает заряд, тем больше выстрелов в очереди (до 4).</mod:setValue>
+</mod:findName>

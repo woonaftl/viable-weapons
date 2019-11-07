@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_laser_heavy_charge_3_charge" w="90" h="73" fw="30" fh="73">weapons/w_laser_heavy_charge_3_charges.png</animSheet>
+
+<anim name="w_laser_heavy_charge_3_charge">
+	<sheet>w_laser_heavy_charge_3_charge</sheet>
+	<desc length="3" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="w_laser_heavy_charge_3" w="660" h="73" fw="30" fh="73">weapons/w_laser_heavy_charge_3_strip22.png</animSheet>
+
+<weaponAnim name="w_laser_heavy_charge_3">
+	<sheet>w_laser_heavy_charge_3</sheet>
+	<desc length="22" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="18" y="10"/>
+	<mountPoint x="6" y="56"/>
+	<boost>w_laser_heavy_charge_3_charge</boost>
+ <chargeImage>weapons/w_laser_heavy_charge_3_glow.png</chargeImage>
+</weaponAnim>

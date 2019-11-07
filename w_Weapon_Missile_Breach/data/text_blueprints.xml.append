@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MISSILES_BREACH_title">Gemini Missiles</text>
+<text name="W_MISSILES_BREACH_short">Gemini</text>
+<text name="W_MISSILES_BREACH_desc">This missile launcher can launch two projectiles at the same time. Each missile, that finds its target, leaves a breach.</text>
+<text name="W_MISSILES_BREACH_tooltip">Fires 2 missiles; 1 damage; pierces all shields; guaranteed breach.</text>
+
+<text name="W_MISSILES_BREACH_UPGRADED_title">Gemini Missiles+</text>
+<text name="W_MISSILES_BREACH_UPGRADED_short">Gemini+</text>

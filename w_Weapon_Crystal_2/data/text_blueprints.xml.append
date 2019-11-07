@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_CRYSTAL_BURST_1">Upgrade Crystal Mark II.</text>
+<text name="W_UPGRADE_FREE_TEXT_CRYSTAL_BURST_1">Ask to upgrade Crystal Mark II (risk of negative outcome).</text>
+
+<text name="W_CRYSTAL_BURST_1_UNUPGRADED_title">Crystal Mark II</text>
+<text name="W_CRYSTAL_BURST_1_UNUPGRADED_short">Crystal II</text>
+
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_title">
+	<mod:setValue>Crystal Mark II+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_short">
+	<mod:setValue>Crystal II+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_tooltip">
+	<mod:setValue>Pierces 1 shield; fires 2 crystals that deal 2 damage each.</mod:setValue>
+</mod:findName>

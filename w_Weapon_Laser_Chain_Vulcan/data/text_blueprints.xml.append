@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_CHAINGUN_2">Upgrade Chain Vulcan.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_CHAINGUN_2">Ask to upgrade Chain Vulcan (risk of negative outcome).</text>
+
+<text name="W_LASER_CHAINGUN_2_UPGRADED_title">Chain Vulcan+</text>
+<text name="W_LASER_CHAINGUN_2_UPGRADED_short">Vulcan+</text>

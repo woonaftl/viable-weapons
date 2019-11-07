@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_CHARGEGUN_2" language="ru">Улучшить лазер с накопителем мод. II.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_CHARGEGUN_2" language="ru">Попытаться улучшить лазер с накопителем мод. II (возможен неблагоприятный исход).</text>
+
+<text name="W_LASER_CHARGEGUN_2_UPGRADED_title" language="ru">Лазер с накопителем мод. II+</text>
+<text name="W_LASER_CHARGEGUN_2_UPGRADED_short" language="ru">Н. лаз. II+</text>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>W_MISSILES_CHARGE_HEAVY</mod-append:name> 
+</mod:findName>
+
+<weaponBlueprint name="W_MISSILES_CHARGE_HEAVY"> <!-- enemy -->
+	<type>BURST</type>
+	<flavorType id="weapon_MISSILE_CHARGEGUN_flavorType"/>
+	<tip>tip_charge</tip>
+	<title id="W_MISSILES_CHARGE_HEAVY_title"/>
+	<short id="W_MISSILES_CHARGE_HEAVY_short"/>
+	<desc id="W_MISSILES_CHARGE_HEAVY_desc"/>
+	<tooltip id="W_MISSILES_CHARGE_HEAVY_tooltip"/>
+	<radius>38</radius>
+	<missiles>1</missiles>
+	<damage>3</damage>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>5</fireChance>
+	<breachChance>10</breachChance>
+	<stun>5</stun>
+	<drone_targetable>1</drone_targetable>
+	<cooldown>11.5</cooldown>
+	<power>4</power>
+	<chargeLevels>2</chargeLevels>
+	<cost>60</cost>
+	<bp>10</bp>
+	<speed>35</speed>
+	<rarity>0</rarity>
+	<explosion>explosion_random</explosion>
+	<projectiles>
+		<projectile count="1" fake="false">missile_burst</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_missiles_charge_heavy</weaponArt>
+	<iconImage>missile_charge</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_MISSILES_CHARGE_HEAVY_UPGRADED"> <!-- player -->
+	<type>BURST</type>
+	<flavorType id="weapon_MISSILE_CHARGEGUN_flavorType"/>
+	<tip>tip_charge_upgraded</tip>
+	<title id="W_MISSILES_CHARGE_HEAVY_UPGRADED_title"/>
+	<short id="W_MISSILES_CHARGE_HEAVY_UPGRADED_short"/>
+	<desc id="W_MISSILES_CHARGE_HEAVY_desc"/>
+	<tooltip id="W_MISSILES_CHARGE_HEAVY_tooltip"/>
+	<radius>38</radius>
+	<missiles>1</missiles>
+	<damage>3</damage>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>5</fireChance>
+	<breachChance>10</breachChance>
+	<stun>5</stun>
+	<drone_targetable>1</drone_targetable>
+	<cooldown>11</cooldown>
+	<power>3</power>
+	<chargeLevels>2</chargeLevels>
+	<cost>60</cost>
+	<bp>10</bp>
+	<speed>35</speed>
+	<rarity>4</rarity>
+	<explosion>explosion_random</explosion>
+	<projectiles>
+		<projectile count="1" fake="false">missile_burst</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_missiles_charge_heavy</weaponArt>
+	<iconImage>missile_charge</iconImage>
+</weaponBlueprint>

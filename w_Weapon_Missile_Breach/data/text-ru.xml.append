@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MISSILES_BREACH_title" language="ru">Ракет. установка «Близнецы»</text>
+<text name="W_MISSILES_BREACH_short" language="ru">Близнецы</text>
+<text name="W_MISSILES_BREACH_desc" language="ru">Эта ракетная установка способна запустить 2 снаряда за один залп. Каждая из ракет, достигших цели, оставляет пробой в корпусе.</text>
+<text name="W_MISSILES_BREACH_tooltip" language="ru">Выпускает 2 ракету на 1 ед. урона; пробивает любые щиты; пробой.</text>
+
+<text name="W_MISSILES_BREACH_UPGRADED_title" language="ru">Ракет. установка «Близнецы»+</text>
+<text name="W_MISSILES_BREACH_UPGRADED_short" language="ru">Близнецы</text>

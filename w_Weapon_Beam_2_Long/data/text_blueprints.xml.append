@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_2_LONG">Upgrade Scythe Beam.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_2_LONG">Ask to upgrade Scythe Beam (risk of negative outcome).</text>
+
+<text name="W_BEAM_2_LONG_title">Scythe Beam</text>
+<text name="W_BEAM_2_LONG_short">Scythe Beam</text>
+<text name="W_BEAM_2_LONG_desc">Slow beam that can cut across entire ships and deal heavy damage.</text>
+<text name="W_BEAM_2_LONG_tooltip">Beam weapon, 2 damage per room.</text>
+
+<text name="W_BEAM_2_LONG_UPGRADED_title">Scythe Beam+</text>
+<text name="W_BEAM_2_LONG_UPGRADED_short">Scythe Beam+</text>

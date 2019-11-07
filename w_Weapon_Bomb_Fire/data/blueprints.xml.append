@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BOMB_FIRE">
+	<mod-overwrite:persDamage>0</mod-overwrite:persDamage> <!-- 2 changed to 0 -->
+	<mod-overwrite:cooldown>14</mod-overwrite:cooldown> <!-- 15 changed to 14 -->
+	<mod-overwrite:power>1</mod-overwrite:power> <!-- 2 changed to 1 -->
+	<mod-overwrite:rarity>1</mod-overwrite:rarity> <!-- 2 changed to 1 -->
+	<mod-overwrite:cost>30</mod-overwrite:cost> <!-- 50 changed to 30 -->
+</mod:findName>
+
+<weaponBlueprint name="W_BOMB_FIRE_UNUPGRADED">
+	<type>BOMB</type>
+	<tip>tip_bombs</tip>
+	<title id="weapon_BOMB_FIRE_title"/>
+	<short id="weapon_BOMB_FIRE_short"/>
+	<desc id="weapon_BOMB_FIRE_desc"/>
+	<tooltip id="weapon_BOMB_FIRE_tooltip"/>
+	<damage>0</damage>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage> <!-- 2 changed to 0 -->
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>15</cooldown>
+	<power>2</power>
+	<cost>30</cost> <!-- 50 changed to 30 -->
+	<bp>5</bp>
+	<rarity>0</rarity> <!-- unupgraded version unavailable -->
+	<image>bomb_fire</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>fireBomb</sound>
+	</hitShipSounds>
+	<weaponArt>bomb_fire</weaponArt>
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>

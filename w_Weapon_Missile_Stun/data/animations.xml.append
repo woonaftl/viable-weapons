@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_missiles_stun" w="84" h="38" fw="28" fh="38">weapons/w_missiles_stun_strip3.png</animSheet>
+
+<weaponAnim name="w_missiles_stun">
+	<sheet>w_missiles_stun</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="18" y="20"/>
+	<mountPoint x="7" y="31"/>
+	<chargeImage>weapons/w_missiles_stun_glow.png</chargeImage>
+</weaponAnim>

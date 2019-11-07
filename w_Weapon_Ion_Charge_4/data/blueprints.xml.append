@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="ION_4">
+	<mod-overwrite:cost>60</mod-overwrite:cost> <!-- 70 changed to 60 -->
+	<mod-overwrite:tip>tip_charge</mod-overwrite:tip>
+	<mod-overwrite:weaponArt>w_ion_charger_2</mod-overwrite:weaponArt>
+	<mod-overwrite:iconImage>ion_charge</mod-overwrite:iconImage>
+	<mod-append:chargeLevels>4</mod-append:chargeLevels> <!-- 1 changed to 4 -->
+</mod:findName>
+
+<weaponBlueprint name="W_ION_4_UPGRADED">
+	<type>LASER</type>
+	<title id="W_ION_4_UPGRADED_title"/>
+	<short id="W_ION_4_UPGRADED_short"/>
+	<tip>tip_charge_upgraded</tip>
+	<desc id="weapon_ION_4_desc"/>
+	<tooltip id="weapon_ION_4_tooltip"/>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>1</stunChance>
+	<cooldown>3.5</cooldown> <!-- 4 changed to 3.5 for upgraded version -->
+	<power>2</power> <!-- 3 changed to 2 for upgraded version -->
+	<cost>60</cost> <!-- 70 changed to 60 -->
+	<bp>6</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<chargeLevels>4</chargeLevels> <!-- 1 changed to 4 -->
+	<image>ion_1_shot</image>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_ion_charger_2</weaponArt>
+	<iconImage>ion_charge</iconImage>
+</weaponBlueprint>

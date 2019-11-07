@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BOMB_STUN">
+	<mod-overwrite:ion>0</mod-overwrite:ion> <!-- 1 changed to 0 -->
+	<mod-overwrite:cooldown>8</mod-overwrite:cooldown> <!-- 17 changed to 8 -->
+	<mod-overwrite:cost>30</mod-overwrite:cost> <!-- 45 changed to 30 -->
+</mod:findName>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="ION_CHAINGUN">
+	<mod-overwrite:cooldown>13</mod-overwrite:cooldown> <!-- 14 changed to 13 -->
+	<mod-overwrite:power>2</mod-overwrite:power> <!-- 3 changed to 2 -->
+	<mod-overwrite:rarity>3</mod-overwrite:rarity> <!-- 4 changed to 3 -->
+	<mod-append:stunChance>1</mod-append:stunChance> <!-- 0 changed to 1 -->
+	<mod:findLike type="boost">
+		<mod-overwrite:count>2</mod-overwrite:count> <!-- 3 changed to 2 -->
+	</mod:findLike>
+	<mod-overwrite:weaponArt>w_ion_chaingun</mod-overwrite:weaponArt>
+</mod:findName>
+
+<weaponBlueprint name="W_ION_CHAINGUN_UPGRADED">
+	<type>LASER</type>
+	<title id="W_ION_CHAINGUN_UPGRADED_title"/>
+	<short id="W_ION_CHAINGUN_UPGRADED_short"/>
+	<tip>tip_chain_ion_upgraded</tip>
+	<desc id="weapon_ION_CHAINGUN_desc"/>
+	<tooltip id="weapon_ION_CHAINGUN_tooltip"/>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>1</stunChance> <!-- 0 changed to 1 -->
+	<cooldown>12</cooldown> <!-- 14 changed to 12 for upgraded version -->
+	<power>1</power> <!-- 3 changed to 1 for upgraded version -->
+	<cost>45</cost> <!-- 55 changed to 45 -->
+	<bp>3</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<image>ion_2_shot</image>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>2</count> <!-- 3 changed to 2 -->
+	</boost>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_ion_chaingun</weaponArt>
+	<iconImage>ion_chain</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>ION_CHAINGUN</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>ION_2</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

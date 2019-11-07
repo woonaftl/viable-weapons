@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<weaponBlueprint name="W_CRYSTAL_CHARGE_2">
+	<type>MISSILES</type>
+	<title id="W_CRYSTAL_CHARGE_2_title"/>
+	<short id="W_CRYSTAL_CHARGE_2_short"/>
+	<tip>tip_charge</tip>
+	<desc id="W_CRYSTAL_CHARGE_2_desc"/>
+	<tooltip id="W_CRYSTAL_CHARGE_2_tooltip"/>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>10.5</cooldown>
+	<power>3</power>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>crystal_shard3</image>
+	<chargeLevels>2</chargeLevels>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>crystalExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<explosion>explosion_crystal_2</explosion>
+	<weaponArt>w_crystal_charge_2</weaponArt>
+	<iconImage>crystalH</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_CRYSTAL_CHARGE_2_UPGRADED">
+	<type>MISSILES</type>
+	<title id="W_CRYSTAL_CHARGE_2_UPGRADED_title"/>
+	<short id="W_CRYSTAL_CHARGE_2_UPGRADED_short"/>
+	<tip>tip_charge_upgraded</tip>
+	<desc id="W_CRYSTAL_CHARGE_2_desc"/>
+	<tooltip id="W_CRYSTAL_CHARGE_2_tooltip"/>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>10</cooldown>
+	<power>2</power>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>crystal_shard3</image>
+	<chargeLevels>2</chargeLevels>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>crystalExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<explosion>explosion_crystal_2</explosion>
+	<weaponArt>w_crystal_charge_2</weaponArt>
+	<iconImage>crystalH</iconImage>
+</weaponBlueprint>

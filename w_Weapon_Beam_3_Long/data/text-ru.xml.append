@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_3" language="ru">Улучшить установку «Секира».</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_3" language="ru">Попытаться улучшить установку «Секира» (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_3_UPGRADED_title" language="ru">Установка «Секира»+</text>
+<text name="W_BEAM_3_UPGRADED_short" language="ru">Секира+</text>

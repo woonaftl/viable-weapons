@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_ion_chaingun_charge" w="58" h="50" fw="29" fh="50">weapons/w_ion_chain_chargeglow.png</animSheet>
+
+<anim name="w_ion_chaingun_charge">
+	<sheet>w_ion_chaingun_charge</sheet>
+	<desc length="2" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="w_ion_chaingun" w="232" h="50" fw="29" fh="50">weapons/w_ion_chain_strip8.png</animSheet>
+
+<weaponAnim name="w_ion_chaingun">
+	<sheet>w_ion_chaingun</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint  x="15" y="15"/>
+	<mountPoint x="5" y="37"/>
+	<chargeImage>weapons/w_ion_chain_glow.png</chargeImage>
+	<boost>w_ion_chaingun_charge</boost>
+</weaponAnim>

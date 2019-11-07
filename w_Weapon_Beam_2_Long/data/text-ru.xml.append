@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_2_LONG" language="ru">Улучшить установку «Коса».</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_2_LONG" language="ru">Попытаться улучшить установку «Коса» (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_2_LONG_title" language="ru">Установка «Коса»</text>
+<text name="W_BEAM_2_LONG_short" language="ru">Коса</text>
+<text name="W_BEAM_2_LONG_desc" language="ru">Медленный, но мощный луч, способный распилить целый корабль.</text>
+<text name="W_BEAM_2_LONG_tooltip" language="ru">Луч, наносящий 2 ед. урона каждому отсеку.</text>
+
+<text name="W_BEAM_2_LONG_UPGRADED_title" language="ru">Установка «Коса»+</text>
+<text name="W_BEAM_2_LONG_UPGRADED_short" language="ru">Коса+</text>

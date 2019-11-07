@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_LONG">Upgrade Pike Beam.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_LONG">Ask to upgrade Pike Beam (risk of negative outcome).</text>
+
+<text name="W_BEAM_LONG_UPGRADED_title">Pike Beam+</text>
+<text name="W_BEAM_LONG_UPGRADED_short">Pike Beam+</text>

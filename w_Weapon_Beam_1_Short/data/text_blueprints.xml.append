@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_1">Upgrade Scimitar Beam.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_1">Ask to upgrade Scimitar Beam (risk of negative outcome).</text>
+
+<text name="W_BEAM_1_UNUPGRADED_title">Scimitar Beam</text>
+<text name="W_BEAM_1_UNUPGRADED_short">Scimitar Beam</text>
+
+<mod:findName type="text" name="weapon_BEAM_1_title">
+	<mod:setValue>Scimitar Beam+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_1_short">
+	<mod:setValue>Scimitar Beam+</mod:setValue>
+</mod:findName>

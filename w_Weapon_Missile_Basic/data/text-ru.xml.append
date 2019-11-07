@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_MISSILES_2_PLAYER_title">
+	<mod:setValue>Ракет. установка «Артемида»+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILES_2_PLAYER_short">
+	<mod:setValue>Артемида+</mod:setValue>
+</mod:findName>

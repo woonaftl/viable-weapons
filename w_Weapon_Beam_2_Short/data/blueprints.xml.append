@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BEAM_2">
+	<mod-overwrite:length>45</mod-overwrite:length> <!-- 80 changed to 45 -->
+	<mod-overwrite:cost>80</mod-overwrite:cost> <!-- 65 changed to 80 -->
+	<mod-overwrite:rarity>4</mod-overwrite:rarity> <!-- 2 changed to 4 -->
+	<mod-append:speed>3</mod-append:speed> <!-- 5 changed to 3 -->
+</mod:findName>
+
+<weaponBlueprint name="W_BEAM_2_UPGRADED">
+	<type>BEAM</type>
+	<tip>tip_beams_upgraded</tip>
+	<title id="W_BEAM_2_UPGRADED_title"/>
+	<short id="W_BEAM_2_UPGRADED_short"/>
+	<desc id="weapon_BEAM_2_desc"/>
+	<tooltip id="weapon_BEAM_2_tooltip"/>
+	<damage>2</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>16</cooldown> <!-- 17 to 16 for upgraded version -->
+	<power>2</power> <!-- 3 to 2 for upgraded version -->
+	<cost>80</cost> <!-- 65 changed to 80 -->
+	<bp>7</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<speed>3</speed> <!-- 5 changed to 3 -->
+	<length>45</length> <!-- 80 changed to 45 -->
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>beam_2</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

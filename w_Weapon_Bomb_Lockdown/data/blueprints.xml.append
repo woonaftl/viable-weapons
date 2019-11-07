@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BOMB_LOCK">
+	<mod-overwrite:cooldown>8</mod-overwrite:cooldown> <!-- 15 changed to 8 -->
+	<mod-overwrite:cost>30</mod-overwrite:cost> <!-- 45 changed to 30 -->
+</mod:findName>

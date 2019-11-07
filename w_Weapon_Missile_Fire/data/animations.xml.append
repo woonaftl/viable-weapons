@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_missiles_fire" w="75" h="47" fw="25" fh="47">weapons/w_missiles_fire_strip3.png</animSheet>
+
+<weaponAnim name="w_missiles_fire">
+	<sheet>w_missiles_fire</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="15" y="20"/>
+	<mountPoint x="5" y="34"/>
+	<chargeImage>weapons/w_missiles_fire_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="w_missiles_fire_rotated" w="75" h="47" fw="25" fh="47">weapons/w_missiles_fire_rotated_strip3.png</animSheet>
+
+<weaponAnim name="w_missiles_fire_rotated">
+	<sheet>w_missiles_fire_rotated</sheet>
+	<desc length="3" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="15" y="20"/>
+	<mountPoint x="5" y="34"/>
+	<chargeImage>weapons/w_missiles_fire_rotated_glow.png</chargeImage>
+</weaponAnim>

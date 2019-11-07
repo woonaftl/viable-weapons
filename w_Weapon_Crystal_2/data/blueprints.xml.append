@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1">
+	<mod-overwrite:damage>2</mod-overwrite:damage> <!-- 1 changed to 2 -->
+	<mod-overwrite:breachChance>10</mod-overwrite:breachChance> <!-- 1 changed to 10 -->
+	<mod-overwrite:stunChance>0</mod-overwrite:stunChance> <!-- 1 changed to 0 -->
+	<mod-overwrite:cost>50</mod-overwrite:cost> <!-- 20 changed to 50 -->
+	
+	<mod-overwrite:image>crystal_shard3</mod-overwrite:image>
+	<mod-overwrite:explosion>explosion_crystal</mod-overwrite:explosion>
+	<mod:findLike type="hitShipSounds">
+		<mod-overwrite:sound>crystalExplosion</mod-overwrite:sound>
+	</mod:findLike>
+	<mod-overwrite:weaponArt>crystal_burst_2</mod-overwrite:weaponArt>
+	<mod-overwrite:tip>tip_crystal_upgraded</mod-overwrite:tip>
+</mod:findName>
+
+<weaponBlueprint name="W_CRYSTAL_BURST_1_UNUPGRADED">
+	<type>MISSILES</type>
+	<title id="weapon_CRYSTAL_BURST_1_title"/>
+	<short id="weapon_CRYSTAL_BURST_1_short"/>
+	<tip>tip_crystal</tip>
+	<desc id="weapon_CRYSTAL_BURST_1_desc"/>
+	<tooltip id="weapon_CRYSTAL_BURST_1_tooltip"/>
+	<damage>2</damage> <!-- 1 changed to 2 -->
+	<shots>2</shots>
+	<sp>1</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance> <!-- 1 changed to 10 -->
+	<stunChance>0</stunChance> <!-- 1 changed to 0 -->
+	<cooldown>16</cooldown> <!-- 15 to 16 for unupgraded version -->
+	<power>3</power> <!-- 2 to 3 for unupgraded version -->
+	<speed>50</speed>
+	<cost>50</cost> <!-- 20 changed to 50 -->
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>crystal_shard3</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>crystalExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<explosion>explosion_crystal</explosion>
+	<weaponArt>crystal_burst_2</weaponArt>
+	<iconImage>crystal</iconImage>
+</weaponBlueprint>

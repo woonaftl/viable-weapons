@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_SHOTGUN_BASIC_title" language="ru">Залповое орудие</text>
+<text name="W_SHOTGUN_BASIC_short" language="ru">Залп</text>
+<text name="W_SHOTGUN_BASIC_desc" language="ru">Производит залп осколками в случайную зону, нанося до 2 ед. урона. Эффективен против щитов, но плохо подходит для прицельного огня.</text>
+<text name="W_SHOTGUN_BASIC_tooltip" language="ru">Производит залп осколками в случайную зону, нанося до 2 ед. урона.</text>

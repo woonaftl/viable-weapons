@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="DLC_WEAPONS">
+	<mod-append:name>W_ION_STUN_BURST</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>ION_STUN</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="ION_STUN">
+	<mod-overwrite:rarity>0</mod-overwrite:rarity>
+</mod:findName>
+
+<weaponBlueprint name="W_ION_STUN_BURST">
+	<type>LASER</type>
+	<tip>tip_ion</tip>
+	<title id="W_ION_STUN_BURST_title"/>
+	<short id="W_ION_STUN_BURST_short"/>
+	<desc id="W_ION_STUN_BURST_desc"/>
+	<tooltip id="W_ION_STUN_BURST_tooltip"/>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>2</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stun>5</stun>
+	<cooldown>11</cooldown>
+	<power>2</power>
+	<cost>45</cost>
+	<bp>3</bp>
+	<rarity>3</rarity>
+	<image>ion_stun_shot</image>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_ion_stun_burst</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_ION_STUN_BURST_UPGRADED">
+	<type>LASER</type>
+	<tip>tip_ion_upgraded</tip>
+	<title id="W_ION_STUN_BURST_UPGRADED_title"/>
+	<short id="W_ION_STUN_BURST_UPGRADED_short"/>
+	<desc id="W_ION_STUN_BURST_desc"/>
+	<tooltip id="W_ION_STUN_BURST_tooltip"/>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>2</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stun>5</stun>
+	<cooldown>10</cooldown>
+	<power>1</power>
+	<cost>45</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<image>ion_stun_shot</image>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_ion_stun_burst</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="ION_STUN"> <!-- replaced with basic ion -->
+			<mod:removeTag />
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

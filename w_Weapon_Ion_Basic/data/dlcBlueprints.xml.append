@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC">
+	<mod:findLike type="weaponList">
+		<mod-append:weapon name="ION_1" /> <!-- replaces ion stunner -->
+	</mod:findLike>
+</mod:findName>

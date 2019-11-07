@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_CRYSTAL_HEAVY_1" language="ru">Улучшить кристалл мод. I.</text>
+<text name="W_UPGRADE_FREE_TEXT_CRYSTAL_HEAVY_1" language="ru">Попытаться улучшить кристалл мод. I. (возможен неблагоприятный исход).</text>
+
+<text name="W_CRYSTAL_HEAVY_1_UNUPGRADED_title" language="ru">Кристалл мод. I</text>
+<text name="W_CRYSTAL_HEAVY_1_UNUPGRADED_short" language="ru">Крист. I</text>
+
+<mod:findName type="text" name="weapon_CRYSTAL_HEAVY_1_title">
+	<mod:setValue>Кристалл мод. I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_HEAVY_1_short">
+	<mod:setValue>Крист. I+</mod:setValue>
+</mod:findName>

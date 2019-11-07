@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_STUN_HEAVY" language="ru">Улучшить тяжелый ионный шокер.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_STUN_HEAVY" language="ru">Попытаться улучшить тяжелый ионный шокер (возможен неблагоприятный исход).</text>
+
+<text name="W_ION_STUN_HEAVY_title" language="ru">Тяжелый ионный шокер</text>
+<text name="W_ION_STUN_HEAVY_short" language="ru">Тяж. шокер</text>
+<text name="W_ION_STUN_HEAVY_desc" language="ru">Выводит из строя системы корабля, не повреждая его корпус, а также оглушает экипаж в пораженном отсеке на 10 секунд.</text>
+<text name="W_ION_STUN_HEAVY_tooltip" language="ru">Выпускает заряд, наносящий 3 ед. ионного урона. При попадании выводит из строя любые системы, в т.ч. щиты.</text>
+
+<text name="W_ION_STUN_HEAVY_UPGRADED_title" language="ru">Тяжелый ионный шокер+</text>
+<text name="W_ION_STUN_HEAVY_UPGRADED_short" language="ru">Тяж. шокер+</text>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_laser_hull_3" w="264" h="69" fw="24" fh="69">weapons/w_laser_hull_3_strip11.png</animSheet>
+
+<weaponAnim name="w_laser_hull_3">
+	<sheet>w_laser_hull_3</sheet>
+	<desc length="11" x="0" y="0"/>
+	<chargedFrame>4</chargedFrame>
+	<fireFrame>8</fireFrame>
+	<firePoint  x="18" y="7"/>
+	<mountPoint x="7" y="52"/>
+	<chargeImage>weapons/w_laser_hull_3_glow.png</chargeImage>
+</weaponAnim>

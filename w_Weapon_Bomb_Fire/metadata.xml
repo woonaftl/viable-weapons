@@ -1,0 +1,9 @@
+<metadata>
+<author>Woona</author>
+<desc>Fire bomb.</desc>
+<changelog>Fire bomb: crew damage 30 -> 0.
+Fire bomb: power 2 -> 1 (player only).
+Fire bomb: charge time 15 -> 14 (player only).
+Fire bomb: scrap cost 50 -> 30.
+Fire bomb: rarity 2 -> 1.</changelog>
+</metadata>

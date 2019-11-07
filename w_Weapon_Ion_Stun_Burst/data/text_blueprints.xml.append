@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_STUN_BURST">Upgrade Burst Ion Stunner.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_STUN_BURST">Ask to upgrade Burst Ion Stunner (risk of negative outcome).</text>
+
+<text name="W_ION_STUN_BURST_title">Burst Ion Stunner</text>
+<text name="W_ION_STUN_BURST_short">Burst Stunner</text>
+<text name="W_ION_STUN_BURST_desc">Ion weapons can disable systems without causing hull damage. This ion weapon fires 2 times, stunning crew inside affected rooms for 5 seconds.</text>
+<text name="W_ION_STUN_BURST_tooltip">Fires 2 blasts that does 1 ion damage. Can hit and disable shields as well as systems.</text>
+
+<text name="W_ION_STUN_BURST_UPGRADED_title">Burst Ion Stunner+</text>
+<text name="W_ION_STUN_BURST_UPGRADED_short">Burst Stunner+</text>

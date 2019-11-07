@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_ZOLTAN">
+	<mod-append:name>W_BEAM_3_SHORT</mod-append:name>
+</mod:findName>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_CHAINGUN">Upgrade Chain Burst Laser.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_CHAINGUN">Ask to upgrade Chain Burst Laser (risk of negative outcome).</text>
+
+<text name="W_LASER_CHAINGUN_UPGRADED_title">Chain Burst Laser+</text>
+<text name="W_LASER_CHAINGUN_UPGRADED_short">Chain L.+</text>

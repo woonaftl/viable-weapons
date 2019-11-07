@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<weaponBlueprint name="W_LASER_CHAINGUN_2_UPGRADED">
+	<type>LASER</type>
+	<title id="W_LASER_CHAINGUN_2_UPGRADED_title"/>
+	<short id="W_LASER_CHAINGUN_2_UPGRADED_short"/>
+	<tip>tip_chain_laser_upgraded</tip>
+	<desc id="weapon_LASER_CHAINGUN_2_desc"/>
+	<tooltip id="weapon_LASER_CHAINGUN_2_tooltip"/>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>9.1</cooldown> <!-- 11.1 to 9.1 for upgraded version -->
+	<power>3</power> <!-- 4 to 3 for upgraded version -->
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<image>laser_light1</image>
+	<boost>
+		<type>cooldown</type>
+		<amount>1.6</amount> <!-- 2 to 1.6 for upgraded version -->
+		<count>5</count>
+	</boost>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chainlaser_2</weaponArt>
+	<iconImage>laser_chain</iconImage>
+</weaponBlueprint>

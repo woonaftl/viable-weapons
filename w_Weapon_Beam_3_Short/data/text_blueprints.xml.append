@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_3_SHORT">Upgrade Rapier Beam.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_3_SHORT">Ask to upgrade Rapier Beam (risk of negative outcome).</text>
+
+<text name="W_BEAM_3_SHORT_title">Rapier Beam</text>
+<text name="W_BEAM_3_SHORT_short">Rapier Beam</text>
+<text name="W_BEAM_3_SHORT_desc">Slow beam that deals heavy pinpoint damage.</text>
+<text name="W_BEAM_3_SHORT_tooltip">Beam weapon, 3 damage per room.</text>
+
+<text name="W_BEAM_3_SHORT_UPGRADED_title">Rapier Beam+</text>
+<text name="W_BEAM_3_SHORT_UPGRADED_short">Rapier Beam+</text>

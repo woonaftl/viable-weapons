@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_BOMB_STUN_desc">
+	<mod:setValue>Self-teleporting explosive that stuns all crew and shipboard drones inside the room. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_STUN_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; stuns all crew inside the room. Can target your own ship.</mod:setValue>
+</mod:findName>

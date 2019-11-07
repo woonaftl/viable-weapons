@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_flak_2" w="224" h="44" fw="28" fh="44">weapons/w_flak_2_strip8.png</animSheet>
+
+<weaponAnim name="w_flak_2">
+	<sheet>w_flak_2</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>3</fireFrame>
+	<firePoint x="11" y="22"/>
+	<mountPoint x="3" y="29"/>
+	<chargeImage>weapons/w_flak_2_glow.png</chargeImage>
+</weaponAnim>

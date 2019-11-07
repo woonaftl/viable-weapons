@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="DLC_WEAPONS">
+	<mod-append:name>W_ION_STUN_HEAVY</mod-append:name>
+</mod:findName>
+
+<weaponBlueprint name="W_ION_STUN_HEAVY">
+	<type>LASER</type>
+	<tip>tip_ion</tip>
+	<title id="W_ION_STUN_HEAVY_title"/>
+	<short id="W_ION_STUN_HEAVY_short"/>
+	<desc id="W_ION_STUN_HEAVY_desc"/>
+	<tooltip id="W_ION_STUN_HEAVY_tooltip"/>
+	<damage>0</damage>
+	<ion>3</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stun>10</stun>
+	<cooldown>14</cooldown>
+	<power>3</power>
+	<cost>60</cost>
+	<bp>3</bp>
+	<rarity>4</rarity>
+	<image>ion_stun_shot</image>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_ion_stun_heavy</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_ION_STUN_HEAVY_UPGRADED">
+	<type>LASER</type>
+	<tip>tip_ion_upgraded</tip>
+	<title id="W_ION_STUN_HEAVY_UPGRADED_title"/>
+	<short id="W_ION_STUN_HEAVY_UPGRADED_short"/>
+	<desc id="W_ION_STUN_HEAVY_desc"/>
+	<tooltip id="W_ION_STUN_HEAVY_tooltip"/>
+	<damage>0</damage>
+	<ion>3</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stun>10</stun>
+	<cooldown>13</cooldown>
+	<power>2</power>
+	<cost>60</cost>
+	<bp>3</bp>
+	<rarity>0</rarity>
+	<image>ion_stun_shot</image>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_ion_stun_heavy</weaponArt>
+	<iconImage>ion</iconImage>
+</weaponBlueprint>

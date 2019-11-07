@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_SCRAP_TEXT_0">You arrive at the factory providing both Rebels and Federation with weapons. You can optimize any weapon here in exchange for some scrap.
+
+Tip: Upgraded weapons require 1 less power and charge faster, than stock weapons. Upgraded weapons and weapons that cost 1 power cannot be upgraded.</text>
+<text name="W_UPGRADE_SCRAP_TEXT_1">Leave.</text>
+<text name="W_UPGRADE_SCRAP_TEXT_2">The engineers at the factory upgraded your weapon. It uses less power now, and charges faster.</text>

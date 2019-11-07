@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="ION_CHARGEGUN">
+	<mod-overwrite:stunChance>1</mod-overwrite:stunChance> <!-- 0 changed to 1 -->
+</mod:findName>
+
+<weaponBlueprint name="W_ION_CHARGEGUN_UPGRADED">
+	<type>LASER</type>
+	<title id="W_ION_CHARGEGUN_UPGRADED_title"/>
+	<short id="W_ION_CHARGEGUN_UPGRADED_short"/>
+	<tip>tip_charge_upgraded</tip>
+	<desc id="weapon_ION_CHARGEGUN_desc"/>
+	<tooltip id="weapon_ION_CHARGEGUN_tooltip"/>
+	<damage>0</damage>
+	<ion>1</ion>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>1</stunChance> <!-- 0 changed to 1 -->
+	<speed>30</speed>
+	<cooldown>5.5</cooldown> <!-- 6 to 5.5 for upgraded version -->
+	<power>1</power> <!-- 2 to 1 for upgraded version -->
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<image>ion_1_shot</image>
+	<chargeLevels>3</chargeLevels>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargeion</weaponArt>
+	<iconImage>ion_charge</iconImage>
+</weaponBlueprint>

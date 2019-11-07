@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_4">Upgrade Ion Charger Mark II.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_4">Ask to upgrade Ion Charger Mark II (risk of negative outcome).</text>
+
+<text name="W_ION_4_UPGRADED_title">Ion Charger Mark II+</text>
+<text name="W_ION_4_UPGRADED_short">Ch. II+</text>
+
+<mod:findName type="text" name="weapon_ION_4_title">
+	<mod:setValue>Ion Charger Mark II</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_4_short">
+	<mod:setValue>Ch. II</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_4_desc">
+	<mod:setValue>This ion weapon can charge multiple times, giving it additional projectiles.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_4_tooltip">
+	<mod:setValue>Fires more shots the more it charges, up to a max of 4.</mod:setValue>
+</mod:findName>

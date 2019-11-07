@@ -1,0 +1,12 @@
+<metadata>
+<author>Woona</author>
+<desc>New missile.</desc>
+<changelog>Hermes missiles removed from the game.
+Pegasus missiles removed from the game.
+Breach missiles removed from the game.
+Hull missiles removed from the game.
+
+New Prometheus missiles (2 power, 14 sec charge time, 3 damage, starts a fire). Enemy version is the same but with 3 power and 15 sec charge time.
+
+Rock A: Hull missiles replaced with new Prometheus missiles.</changelog>
+</metadata>

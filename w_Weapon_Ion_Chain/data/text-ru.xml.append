@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_CHAINGUN" language="ru">Улучшить ионную пушку с разогревом.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_CHAINGUN" language="ru">Попытаться улучшить ионную пушку с разогревом (возможен неблагоприятный исход).</text>
+
+<text name="W_ION_CHAINGUN_UPGRADED_title" language="ru">Ионная пушка с разогревом+</text>
+<text name="W_ION_CHAINGUN_UPGRADED_short" language="ru">И./раз.+</text>
+
+<mod:findName type="text" name="weapon_ION_CHAINGUN_desc">
+	<mod:setValue>Наносит больше урона с каждым выстрелом (до 3 ед.).</mod:setValue>
+</mod:findName>

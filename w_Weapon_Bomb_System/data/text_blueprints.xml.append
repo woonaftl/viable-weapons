@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_BOMB_1_title">
+	<mod:setValue>Flash Bomb</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_short">
+	<mod:setValue>Flash</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_desc">
+	<mod:setValue>Self-teleporting explosive that damages systems but not the hull. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; does 2 damage, but only damages system, not hull. Can target your own ship.</mod:setValue>
+</mod:findName>

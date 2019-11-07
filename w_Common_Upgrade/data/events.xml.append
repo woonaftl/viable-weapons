@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<eventList name="W_UPGRADE_WEAPON_EVENT_LIST_ALL">
+</eventList>
+
+<eventList name="W_UPGRADE_WEAPON_EVENT_LIST_LEGIT">
+</eventList>
+
+<eventList name="W_UPGRADE_WEAPON_EVENT_LIST_SKETCHY">
+</eventList>
+
+<eventList name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA">
+</eventList>

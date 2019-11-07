@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<blueprintList name="W_BEAM_FIRE_LIST">
+	<name>BEAM_FIRE</name>
+	<name>W_BEAM_FIRE_UPGRADED</name>
+</blueprintList>
+
+<weaponBlueprint name="W_BEAM_FIRE_UPGRADED">
+	<type>BEAM</type>
+	<tip>tip_fire_beam_upgraded</tip>
+	<title id="W_BEAM_FIRE_UPGRADED_title"/>
+	<short id="W_BEAM_FIRE_UPGRADED_short"/>
+	<desc id="weapon_BEAM_FIRE_desc"/>
+	<tooltip id="weapon_BEAM_FIRE_tooltip"/>
+	<damage>0</damage>
+	<sp>0</sp>
+	<fireChance>8</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>19</cooldown> <!-- 20 to 19 for upgraded version -->
+	<power>1</power> <!-- 2 to 1 for upgraded version -->
+	<cost>50</cost>
+	<bp>6</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<length>140</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>beam_fire</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

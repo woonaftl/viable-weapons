@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_missiles_breach" w="112" h="44" fw="28" fh="44">weapons/w_missiles_breach_strip4.png</animSheet>
+
+<weaponAnim name="w_missiles_breach">
+	<sheet>w_missiles_breach</sheet>
+	<desc length="4" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="17" y="20"/>
+	<mountPoint x="6" y="32"/>
+	<chargeImage>weapons/w_missiles_breach_glow.png</chargeImage>
+</weaponAnim>

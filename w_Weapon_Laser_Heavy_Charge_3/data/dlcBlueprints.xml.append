@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="DLC_WEAPONS">
+	<mod-append:name>W_LASER_HEAVY_CHARGE_3</mod-append:name>
+</mod:findName>
+
+<weaponBlueprint name="W_LASER_HEAVY_CHARGE_3">
+	<type>LASER</type>
+	<title id="W_LASER_HEAVY_CHARGE_3_title"/>
+	<short id="W_LASER_HEAVY_CHARGE_3_short"/>
+	<tip>tip_charge</tip>
+	<desc id="W_LASER_HEAVY_CHARGE_3_desc"/>
+	<tooltip id="W_LASER_HEAVY_CHARGE_3_tooltip"/>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>3</fireChance>
+	<breachChance>3</breachChance>
+	<stunChance>2</stunChance>
+	<cooldown>5</cooldown>
+	<power>4</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>5</rarity>
+	<chargeLevels>3</chargeLevels>
+	<image>laser_heavy1</image>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_laser_heavy_charge_3</weaponArt>
+	<iconImage>heavyL</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_LASER_HEAVY_CHARGE_3_UPGRADED">
+	<type>LASER</type>
+	<title id="W_LASER_HEAVY_CHARGE_3_UPGRADED_title"/>
+	<short id="W_LASER_HEAVY_CHARGE_3_UPGRADED_short"/>
+	<tip>tip_charge_upgraded</tip>
+	<desc id="W_LASER_HEAVY_CHARGE_3_desc"/>
+	<tooltip id="W_LASER_HEAVY_CHARGE_3_tooltip"/>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>3</fireChance>
+	<breachChance>3</breachChance>
+	<stunChance>2</stunChance>
+	<cooldown>4.5</cooldown>
+	<power>3</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<chargeLevels>3</chargeLevels>
+	<image>laser_heavy1</image>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_laser_heavy_charge_3</weaponArt>
+	<iconImage>heavyL</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>W_LASER_HEAVY_CHARGE_3</mod-append:name>
+</mod:findName>

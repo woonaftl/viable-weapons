@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_HEAVY_1">Upgrade Heavy Laser Mark I.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_HEAVY_1">Ask to upgrade Heavy Laser Mark I (risk of negative outcome).</text>
+
+<text name="W_LASER_HEAVY_1_UNUPGRADED_title">Heavy Laser Mark I</text>
+<text name="W_LASER_HEAVY_1_UNUPGRADED_short">Heavy Laser I</text>
+
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_title">
+	<mod:setValue>Heavy Laser Mark I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_short">
+	<mod:setValue>Heavy Laser I+</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_LASER_HEAVY_1_SP_desc">
+	<mod:setValue>CANNOT BE UPGRADED!
+	This modified version of heavy laser pierces 1 shield.</mod:setValue>
+</mod:findName>

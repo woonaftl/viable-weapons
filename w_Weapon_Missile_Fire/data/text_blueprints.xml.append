@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MISSILES_FIRE_title">Prometheus Missiles</text>
+<text name="W_MISSILES_FIRE_short">Prom.</text>
+<text name="W_MISSILES_FIRE_desc">Each missile launched with this weapon deals heavy damage to enemy hull and starts a fire.</text>
+<text name="W_MISSILES_FIRE_tooltip">Fires 1 missile; 3 damage; pierces all shields; guaranteed fire.</text>
+
+<text name="W_MISSILES_FIRE_UPGRADED_title">Prometheus Missiles+</text>
+<text name="W_MISSILES_FIRE_UPGRADED_short">Prom.+</text>

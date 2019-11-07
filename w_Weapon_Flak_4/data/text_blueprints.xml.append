@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_SHOTGUN">Upgrade Flak Gun Mark I.</text>
+<text name="W_UPGRADE_FREE_TEXT_SHOTGUN">Ask to upgrade Flak Gun Mark I (risk of negative outcome).</text>
+
+<mod:findName type="text" name="weapon_SHOTGUN_desc">
+	<mod:setValue>Slow charging weapon that fires a blast of debris across a random area doing up to 4 damage. Good at taking down shields but hard to aim.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_tooltip">
+	<mod:setValue>Fires a blast of debris across a random area doing up to 4 damage.</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_title">
+	<mod:setValue>Flak Gun Mark I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_short">
+	<mod:setValue>Flak I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_desc">
+	<mod:setValue>Slow charging weapon that fires a blast of debris across a random area doing up to 4 damage. Good at taking down shields but hard to aim.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_SHOTGUN_PLAYER_tooltip">
+	<mod:setValue>Fires a blast of debris across a random area doing up to 4 damage.</mod:setValue>
+</mod:findName>

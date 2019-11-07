@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_REBEL">
+	<mod-append:name>LASER_CHARGEGUN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_AUTO">
+	<mod-append:name>LASER_CHARGEGUN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_JELLY">
+	<mod-append:name>LASER_CHARGEGUN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_CIRCLE">
+	<mod-append:name>LASER_CHARGEGUN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_ZOLTAN">
+	<mod-append:name>LASER_CHARGEGUN</mod-append:name>
+</mod:findName>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_HULL_1" language="ru">Улучшить противокорпусный лазер мод. I.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_HULL_1" language="ru">Попытаться улучшить противокорпусный лазер мод. I (возможен неблагоприятный исход).</text>
+
+<text name="W_LASER_HULL_1_UPGRADED_title" language="ru">Противокорпусный лазер мод. I+</text>
+<text name="W_LASER_HULL_1_UPGRADED_short" language="ru">Пр./корп. лаз. I+</text>
+
+<mod:findName type="text" name="weapon_LASER_HULL_1_title">
+	<mod:setValue>Противокорпусный лазер мод. I</mod:setValue>
+</mod:findName>

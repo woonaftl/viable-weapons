@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_BOMB_1_title">
+	<mod:setValue>Ударная бомба</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_short">
+	<mod:setValue>У. бомба</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_desc">
+	<mod:setValue>Телепортируемое взрывное устройство. Наносит урон системам, не повреждая корпус. Можно направить на собственный корабль.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_1_tooltip">
+	<mod:setValue>Бомба; использует боеголовку; наносит 2 ед. урона системам, не повреждая корпус. Можно направить на собственный корабль.</mod:setValue>
+</mod:findName>

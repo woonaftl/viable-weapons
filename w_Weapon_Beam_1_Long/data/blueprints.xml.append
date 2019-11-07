@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BEAM_LONG">
+	<mod-overwrite:length>140</mod-overwrite:length> <!-- 170 changed to 140, minor change, just for consistency with other beams -->
+	<mod-overwrite:rarity>3</mod-overwrite:rarity> <!-- 2 changed to 3 -->
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BEAM_HULL">
+	<mod-overwrite:rarity>0</mod-overwrite:rarity> <!-- it fulfills exactly the same role so it's removed from the game -->
+</mod:findName>
+
+<weaponBlueprint name="W_BEAM_LONG_UPGRADED">
+	<type>BEAM</type>
+	<tip>tip_beams_upgraded</tip>
+	<title id="W_BEAM_LONG_UPGRADED_title"/>
+	<short id="W_BEAM_LONG_UPGRADED_short"/>
+	<desc id="weapon_BEAM_LONG_desc"/>
+	<tooltip id="weapon_BEAM_LONG_tooltip"/>
+	<damage>1</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<speed>13</speed>
+	<cooldown>15</cooldown> <!-- 16 to 15 for upgraded version -->
+	<power>1</power> <!-- 2 to 1 for upgraded version -->
+	<cost>55</cost>
+	<bp>5</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<image>beam_contact</image>
+	<length>140</length> <!-- 170 changed to 140 -->
+	<launchSounds>
+		<sound>beam1</sound>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<weaponArt>beam_long</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

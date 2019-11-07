@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_ion_charger_2_charge" w="156" h="49" fw="39" fh="49">weapons/w_ion_charger_2_charges.png</animSheet>
+
+<anim name="w_ion_charger_2_charge">
+	<sheet>w_ion_charger_2_charge</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="w_ion_charger_2" w="546" h="49" fw="39" fh="49">weapons/w_ion_charger_2_strip14.png</animSheet>
+
+<weaponAnim name="w_ion_charger_2">
+	<sheet>w_ion_charger_2</sheet>
+	<desc length="14" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="30" y="11" charge="6"/>
+	<mountPoint x="8" y="37"/>
+	<boost>w_ion_charger_2_charge</boost>
+	<chargeImage>weapons/w_ion_charger_2_glow.png</chargeImage>
+</weaponAnim>

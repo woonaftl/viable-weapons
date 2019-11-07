@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="LASER_HEAVY_1">
+	<mod-overwrite:tip>tip_laser_upgraded</mod-overwrite:tip>
+	<mod-overwrite:rarity>0</mod-overwrite:rarity> <!-- upgraded version made unavailable -->
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_HEAVY_1_SP">
+	<mod-overwrite:cost>50</mod-overwrite:cost> <!-- 55 changed to 50 for consitency -->
+	<mod-append:stunChance>2</mod-append:stunChance> <!-- 0 changed to 2 for consitency -->
+</mod:findName>
+
+<weaponBlueprint name="W_LASER_HEAVY_1_UNUPGRADED">
+	<type>LASER</type>
+	<title id="W_LASER_HEAVY_1_UNUPGRADED_title"/>
+	<short id="W_LASER_HEAVY_1_UNUPGRADED_short"/>
+	<tip>tip_laser</tip>
+	<desc id="weapon_LASER_HEAVY_1_desc"/>
+	<tooltip id="weapon_LASER_HEAVY_1_tooltip"/>
+	<damage>2</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>3</fireChance>
+	<breachChance>3</breachChance>
+	<stunChance>2</stunChance>
+	<cooldown>10</cooldown> <!-- 9 to 10 for unupgraded version -->
+	<power>2</power> <!-- 1 to 2 for unupgraded version -->
+	<cost>50</cost>
+	<bp>6</bp>
+	<rarity>1</rarity> <!-- 2 changed to 1 -->
+	<image>laser_heavy1</image>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_heavy_1</weaponArt>
+	<iconImage>heavyL</iconImage>
+</weaponBlueprint>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_3_SHORT" language="ru">Улучшить установку «Рапира».</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_3_SHORT" language="ru">Попытаться улучшить установку «Рапира» (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_3_SHORT_title" language="ru">Установка «Рапира»</text>
+<text name="W_BEAM_3_SHORT_short" language="ru">Рапира</text>
+<text name="W_BEAM_3_SHORT_desc" language="ru">Медленный точечный луч, наносящий огромный урон.</text>
+<text name="W_BEAM_3_SHORT_tooltip" language="ru">Луч, наносящий 3 ед. урона каждому отсеку.</text>
+
+<text name="W_BEAM_3_SHORT_UPGRADED_title" language="ru">Установка «Рапира»+</text>
+<text name="W_BEAM_3_SHORT_UPGRADED_short" language="ru">Рапира+</text>

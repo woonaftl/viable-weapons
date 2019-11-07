@@ -1,0 +1,10 @@
+<metadata>
+<author>Woona</author>
+<desc>Ion bomb.</desc>
+<changelog>Ion bomb: ion damage 4 -> 3.
+Ion bomb: charge time 22 -> 16.
+Ion bomb: stun chance 0.2 -> 0.
+Ion bomb: scrap cost 55 -> 40.
+Ion bomb: rarity 3 -> 1.
+Enemies use unupgraded ion bombs (2 power, 18 charge time).</changelog>
+</metadata>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_2" language="ru">Улучшить установку «Катана».</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_2" language="ru">Попытаться улучшить установку «Катана» (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_2_UPGRADED_title" language="ru">Установка «Катана»+</text>
+<text name="W_BEAM_2_UPGRADED_short" language="ru">Катана+</text>

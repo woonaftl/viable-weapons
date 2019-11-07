@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BEAM_1">
+	<mod-overwrite:fireChance>0</mod-overwrite:fireChance> <!-- 1 changed to 0 -->
+	<mod-overwrite:cost>50</mod-overwrite:cost> <!-- 20 changed to 50 -->
+	<mod-overwrite:tip>tip_beams_upgraded</mod-overwrite:tip>
+</mod:findName>
+
+<weaponBlueprint name="W_BEAM_1_UNUPGRADED">
+	<type>BEAM</type>
+	<tip>tip_beams</tip>
+	<title id="W_BEAM_1_UNUPGRADED_title"/>
+	<short id="W_BEAM_1_UNUPGRADED_short"/>
+	<desc id="weapon_BEAM_1_desc"/>
+	<tooltip id="weapon_BEAM_1_tooltip"/>
+	<damage>1</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance> <!-- 1 changed to 0 -->
+	<breachChance>0</breachChance>
+	<cooldown>13</cooldown> <!-- 12 to 13 for unupgraded version -->
+	<speed>3</speed>
+	<power>2</power> <!-- 1 to 2 for unupgraded version -->
+	<cost>50</cost> <!-- 20 changed to 50 -->
+	<bp>2</bp>
+	<rarity>3</rarity> <!-- 0 changed to 3 -->
+	<image>beam_contact</image>
+	<length>45</length>
+	<launchSounds>
+		<sound>beam1</sound>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<weaponArt>beam_1</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

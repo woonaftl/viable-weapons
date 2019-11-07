@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_CHAINGUN" language="ru">Улучшить залп. лазер с разогревом.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_CHAINGUN" language="ru">Попытаться улучшить залп. лазер с разогревом (возможен неблагоприятный исход).</text>
+
+<text name="W_LASER_CHAINGUN_UPGRADED_title" language="ru">Залп. лазер с разогревом+</text>
+<text name="W_LASER_CHAINGUN_UPGRADED_short" language="ru">Л./раз.+</text>

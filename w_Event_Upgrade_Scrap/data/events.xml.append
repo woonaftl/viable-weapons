@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="W_UPGRADE_WEAPON_EVENT_LIST_ALL"> 
+	<mod-append:event load="W_UPGRADE_SCRAP"/>
+</mod:findName>
+<mod:findName type="eventList" name="W_UPGRADE_WEAPON_EVENT_LIST_LEGIT"> 
+	<mod-append:event load="W_UPGRADE_SCRAP"/>
+</mod:findName>
+<event name="W_UPGRADE_SCRAP" unique="true">
+	<text id="W_UPGRADE_SCRAP_TEXT_0"/>
+	<repair/>
+	<!-- lasers -->
+	<choice req="LASER_BURST_2_A">
+		<text id="W_UPGRADE_TEXT_LASER_BURST_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_BURST_2_A"/>
+			<weapon name="LASER_BURST_2"/>
+		</event>
+	</choice>
+	<choice req="W_LASER_BURST_3_UNUPGRADED">
+		<text id="W_UPGRADE_TEXT_LASER_BURST_3"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_LASER_BURST_3_UNUPGRADED"/>
+			<weapon name="LASER_BURST_3"/>
+		</event>
+	</choice>
+	<choice req="LASER_BURST_5">
+		<text id="W_UPGRADE_TEXT_LASER_BURST_5"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_BURST_5"/>
+			<weapon name="W_LASER_BURST_5_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="LASER_CHAINGUN">
+		<text id="W_UPGRADE_TEXT_LASER_CHAINGUN"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_CHAINGUN"/>
+			<weapon name="W_LASER_CHAINGUN_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="LASER_CHAINGUN_2">
+		<text id="W_UPGRADE_TEXT_LASER_CHAINGUN_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_CHAINGUN_2"/>
+			<weapon name="W_LASER_CHAINGUN_2_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="LASER_CHARGEGUN">
+		<text id="W_UPGRADE_TEXT_LASER_CHARGEGUN"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_CHARGEGUN"/>
+			<weapon name="LASER_CHARGEGUN_PLAYER"/>
+		</event>
+	</choice>
+	<choice req="LASER_CHARGEGUN_2">
+		<text id="W_UPGRADE_TEXT_LASER_CHARGEGUN_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_CHARGEGUN_2"/>
+			<weapon name="W_LASER_CHARGEGUN_2_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="W_LASER_HEAVY_1_UNUPGRADED">
+		<text id="W_UPGRADE_TEXT_LASER_HEAVY_1"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_LASER_HEAVY_1_UNUPGRADED"/>
+			<weapon name="LASER_HEAVY_1"/>
+		</event>
+	</choice>
+	<choice req="LASER_HEAVY_2">
+		<text id="W_UPGRADE_TEXT_LASER_HEAVY_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_HEAVY_2"/>
+			<weapon name="W_LASER_HEAVY_2_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="W_LASER_HEAVY_CHARGE_3">
+		<text id="W_UPGRADE_TEXT_LASER_HEAVY_CHARGE_3"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_LASER_HEAVY_CHARGE_3"/>
+			<weapon name="W_LASER_HEAVY_CHARGE_3_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="LASER_HULL_1">
+		<text id="W_UPGRADE_TEXT_LASER_HULL_1"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_HULL_1"/>
+			<weapon name="W_LASER_HULL_1_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="LASER_HULL_2">
+		<text id="W_UPGRADE_TEXT_LASER_HULL_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="LASER_HULL_2"/>
+			<weapon name="W_LASER_HULL_2_UPGRADED"/>
+		</event>
+	</choice>
+	<!-- beams -->
+	<choice req="W_BEAM_1_UNUPGRADED">
+		<text id="W_UPGRADE_TEXT_BEAM_1"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_BEAM_1_UNUPGRADED"/>
+			<weapon name="BEAM_1"/>
+		</event>
+	</choice>
+	<choice req="BEAM_LONG">
+		<text id="W_UPGRADE_TEXT_BEAM_LONG"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="BEAM_LONG"/>
+			<weapon name="W_BEAM_LONG_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="BEAM_2">
+		<text id="W_UPGRADE_TEXT_BEAM_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="BEAM_2"/>
+			<weapon name="W_BEAM_2_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="W_BEAM_2_LONG">
+		<text id="W_UPGRADE_TEXT_BEAM_2_LONG"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_BEAM_2_LONG"/>
+			<weapon name="W_BEAM_2_LONG_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="W_BEAM_3_SHORT">
+		<text id="W_UPGRADE_TEXT_BEAM_3_SHORT"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_BEAM_3_SHORT"/>
+			<weapon name="W_BEAM_3_SHORT_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="BEAM_3">
+		<text id="W_UPGRADE_TEXT_BEAM_3"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="BEAM_3"/>
+			<weapon name="W_BEAM_3_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="BEAM_BIO">
+		<text id="W_UPGRADE_TEXT_BEAM_BIO"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="BEAM_BIO"/>
+			<weapon name="W_BEAM_BIO_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="BEAM_FIRE">
+		<text id="W_UPGRADE_TEXT_BEAM_FIRE"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="BEAM_FIRE"/>
+			<weapon name="W_BEAM_FIRE_UPGRADED"/>
+		</event>
+	</choice>
+	<!-- ion -->
+	<choice req="ION_CHARGEGUN">
+		<text id="W_UPGRADE_TEXT_ION_CHARGEGUN"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="ION_CHARGEGUN"/>
+			<weapon name="W_ION_CHARGEGUN_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="ION_CHAINGUN">
+		<text id="W_UPGRADE_TEXT_ION_CHAINGUN"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="ION_CHAINGUN"/>
+			<weapon name="W_ION_CHAINGUN_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="ION_4">
+		<text id="W_UPGRADE_TEXT_ION_4"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="ION_4"/>
+			<weapon name="W_ION_4_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="W_ION_STUN_BURST">
+		<text id="W_UPGRADE_TEXT_ION_STUN_BURST"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_ION_STUN_BURST"/>
+			<weapon name="W_ION_STUN_BURST_UPGRADED"/>
+		</event>
+	</choice>
+	<choice req="W_ION_STUN_HEAVY">
+		<text id="W_UPGRADE_TEXT_ION_STUN_HEAVY"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_ION_STUN_HEAVY"/>
+			<weapon name="W_ION_STUN_HEAVY_UPGRADED"/>
+		</event>
+	</choice>
+	<!-- flak -->
+	<choice req="SHOTGUN">
+		<text id="W_UPGRADE_TEXT_SHOTGUN"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="SHOTGUN"/>
+			<weapon name="SHOTGUN_PLAYER"/>
+		</event>
+	</choice>
+	<choice req="SHOTGUN_2">
+		<text id="W_UPGRADE_TEXT_SHOTGUN_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="SHOTGUN_2"/>
+			<weapon name="W_SHOTGUN_2_UPGRADED"/>
+		</event>
+	</choice>
+	<!-- crystal -->
+	<choice req="W_CRYSTAL_HEAVY_1_UNUPGRADED">
+		<text id="W_UPGRADE_TEXT_CRYSTAL_HEAVY_1"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_CRYSTAL_HEAVY_1_UNUPGRADED"/>
+			<weapon name="CRYSTAL_HEAVY_1"/>
+		</event>
+	</choice>
+	<choice req="W_CRYSTAL_BURST_1_UNUPGRADED">
+		<text id="W_UPGRADE_TEXT_CRYSTAL_BURST_1"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_CRYSTAL_BURST_1_UNUPGRADED"/>
+			<weapon name="CRYSTAL_BURST_1"/>
+		</event>
+	</choice>
+	<choice req="W_CRYSTAL_CHARGE_2">
+		<text id="W_UPGRADE_TEXT_CRYSTAL_CHARGE_2"/>
+		<event>
+			<text id="W_UPGRADE_SCRAP_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-80" max="-60"/>
+			</item_modify>
+			<remove name="W_CRYSTAL_CHARGE_2"/>
+			<weapon name="W_CRYSTAL_CHARGE_2_UPGRADED"/>
+		</event>
+	</choice>
+	<!-- exit -->
+	<choice hidden="true">
+		<text id="W_UPGRADE_SCRAP_TEXT_1"/>
+		<event/>
+	</choice>
+</event>

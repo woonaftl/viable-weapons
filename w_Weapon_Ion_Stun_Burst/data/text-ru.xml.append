@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_STUN_BURST" language="ru">Улучшить залповый ионный шокер.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_STUN_BURST" language="ru">Попытаться улучшить залповый ионный шокер (возможен неблагоприятный исход).</text>
+
+<text name="W_ION_STUN_BURST_title" language="ru">Залповый ионный шокер</text>
+<text name="W_ION_STUN_BURST_short" language="ru">Залп. шокер</text>
+<text name="W_ION_STUN_BURST_desc" language="ru">Выводит из строя системы корабля, не повреждая его корпус, а также оглушает экипаж в пораженном отсеке на 5 секунд.</text>
+<text name="W_ION_STUN_BURST_tooltip" language="ru">Выпускает 2 заряда, наносящих 1 ед. ионного урона. При попадании выводит из строя любые системы, в т.ч. щиты.</text>
+
+<text name="W_ION_STUN_BURST_UPGRADED_title" language="ru">Залповый ионный шокер+</text>
+<text name="W_ION_STUN_BURST_UPGRADED_short" language="ru">Залп. шокер+</text>

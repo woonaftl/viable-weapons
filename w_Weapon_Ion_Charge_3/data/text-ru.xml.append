@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_CHARGEGUN" language="ru">Улучшить ионную пушку с накопителем мод. I.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_CHARGEGUN" language="ru">Попытаться улучшить ионную пушку с накопителем мод. I (возможен неблагоприятный исход).</text>
+
+<text name="W_ION_CHARGEGUN_UPGRADED_title" language="ru">Ионная пушка с накопителем мод. I+</text>
+<text name="W_ION_CHARGEGUN_UPGRADED_short" language="ru">Н. ион I+</text>
+
+<mod:findName type="text" name="weapon_ION_CHARGEGUN_title">
+	<mod:setValue>Ионная пушка с накопителем мод. I</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_CHARGEGUN_short">
+	<mod:setValue>Н. ион I</mod:setValue>
+</mod:findName>

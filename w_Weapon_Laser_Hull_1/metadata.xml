@@ -1,0 +1,5 @@
+<metadata>
+<author>Woona</author>
+<desc>New basic laser. Provides variety for early game enemy weapon pools.</desc>
+<changelog>Added Basic Hull Laser (1 projectile, 1 power, 13 sec charge time, 0.3 breach chance, double damage to empty rooms). Unavailable in stores or random drops, similarly to Basic Laser, but commonly seen on weaker enemies.</changelog>
+</metadata>

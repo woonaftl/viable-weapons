@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_BURST_2" language="ru">Улучшить залповый лазер мод. I.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_BURST_2" language="ru">Попытаться улучшить залповый лазер мод. I (возможен неблагоприятный исход).</text>
+
+<mod:findName type="text" name="weapon_LASER_BURST_2_title">
+	<mod:setValue>Залповый лазер мод. I+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_2_short">
+	<mod:setValue>Залп. лазер I+</mod:setValue>
+</mod:findName>

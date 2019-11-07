@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_LASER_HULL_BASIC_title" language="ru">Противокорпусный лазер</text>
+<text name="W_LASER_HULL_BASIC_short" language="ru">Пр./корп. лаз.</text>
+<text name="W_LASER_HULL_BASIC_desc" language="ru">Мощный лазер, предназначенный для нанесения максимальных повреждений корпусу.</text>
+<text name="W_LASER_HULL_BASIC_tooltip" language="ru">Выпускает 1 импульс, наносящий 1 ед. урона; двойной урон при попадании в отсек без систем.</text>

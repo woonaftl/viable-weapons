@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_SHOTGUN_BASIC_title">Basic Flak Gun</text>
+<text name="W_SHOTGUN_BASIC_short">Basic Flak</text>
+<text name="W_SHOTGUN_BASIC_desc">Slow charging weapon that fires a blast of debris across a random area doing up to 2 damage. Good at taking down shields but hard to aim.</text>
+<text name="W_SHOTGUN_BASIC_tooltip">Fires a blast of debris across a random area doing up to 2 damage.</text>

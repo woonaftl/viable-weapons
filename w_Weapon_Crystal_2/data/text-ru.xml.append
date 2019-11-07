@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_CRYSTAL_BURST_1" language="ru">Улучшить кристалл мод. II.</text>
+<text name="W_UPGRADE_FREE_TEXT_CRYSTAL_BURST_1" language="ru">Попытаться улучшить кристалл мод. II. (возможен неблагоприятный исход).</text>
+
+<text name="W_CRYSTAL_BURST_1_UNUPGRADED_title" language="ru">Кристалл мод. II</text>
+<text name="W_CRYSTAL_BURST_1_UNUPGRADED_short" language="ru">Крист. II</text>
+
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_title">
+	<mod:setValue>Кристалл мод. II+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_short">
+	<mod:setValue>Крист. II+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_CRYSTAL_BURST_1_tooltip">
+	<mod:setValue>Пробивает 1 уровень щитов; выпускает 2 кристалла, каждый из которых наносит 2 ед. урона.</mod:setValue>
+</mod:findName>

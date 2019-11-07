@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="DISTRESS_INFESTATION">
+	<mod:findLike type="choice">
+		<mod:selector req="BEAM_BIO"/>
+		<mod:setAttributes req="W_BEAM_BIO_LIST"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="event" name="QUEST_CREWDEAD_START_2">
+	<mod:findLike type="choice">
+		<mod:selector req="BEAM_BIO"/>
+		<mod:setAttributes req="W_BEAM_BIO_LIST"/>
+	</mod:findLike>
+</mod:findName>

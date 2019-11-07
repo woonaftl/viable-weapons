@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BEAM_3">
+	<mod-overwrite:length>140</mod-overwrite:length> <!-- 80 changed to 140 -->
+	<mod-append:speed>13</mod-append:speed> <!-- 5 changed to 13 -->
+</mod:findName>
+
+<weaponBlueprint name="W_BEAM_3_UPGRADED">
+	<type>BEAM</type>
+	<title id="W_BEAM_3_UPGRADED_title"/>
+	<short id="W_BEAM_3_UPGRADED_short"/>
+	<tip>tip_beams_upgraded</tip>
+	<desc id="weapon_BEAM_3_desc"/>
+	<tooltip id="weapon_BEAM_3_tooltip"/>
+	<damage>3</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>24</cooldown> <!-- 25 to 24 for upgraded version -->
+	<power>3</power> <!-- 4 to 3 for upgraded version -->
+	<cost>95</cost>
+	<bp>12</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<speed>13</speed> <!-- 5 changed to 13 -->
+	<length>140</length> <!-- 80 changed to 140 -->
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>beam_3</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

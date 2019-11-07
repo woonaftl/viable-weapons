@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_CHARGEGUN">Upgrade Laser Charger Mark I.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_CHARGEGUN">Ask to upgrade Laser Charger Mark I (risk of negative outcome).</text>
+
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_title">
+	<mod:setValue>Laser Charger Mark I</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_short">
+	<mod:setValue>Charge I</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_PLAYER_title">
+	<mod:setValue>Laser Charger Mark I+</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_LASER_CHARGEGUN_PLAYER_short">
+	<mod:setValue>Ch. I+</mod:setValue>
+</mod:findName>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_CRYSTAL_CHARGE_2">Upgrade Crystal Charger.</text>
+<text name="W_UPGRADE_FREE_TEXT_CRYSTAL_CHARGE_2">Ask to upgrade Crystal Charger (risk of negative outcome).</text>
+
+<text name="W_CRYSTAL_CHARGE_2_title">Crystal Charger</text>
+<text name="W_CRYSTAL_CHARGE_2_short">Cr. Ch.</text>
+<text name="W_CRYSTAL_CHARGE_2_desc">Modified projectile weapon that fires up to 2 shield piercing crystals.</text>
+<text name="W_CRYSTAL_CHARGE_2_tooltip">Pierces 1 shield; fires up to 2 crystals that deal 2 damage each.</text>
+
+<text name="W_CRYSTAL_CHARGE_2_UPGRADED_title">Crystal Charger+</text>
+<text name="W_CRYSTAL_CHARGE_2_UPGRADED_short">Cr. Ch.+</text>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="MISSILE_CHARGEGUN">
+	<mod-overwrite:cost>50</mod-overwrite:cost> <!-- 65 changed to 50 -->
+	<mod-overwrite:rarity>3</mod-overwrite:rarity> <!-- 4 changed to 3 -->
+	<mod-append:stunChance>1</mod-append:stunChance> <!-- 0 changed to 1 -->
+	<mod-overwrite:tip>tip_charge_upgraded</mod-overwrite:tip>
+</mod:findName>
+
+<weaponBlueprint name="W_MISSILE_CHARGEGUN_UNUPGRADED">
+	<type>BURST</type>
+	<flavorType id="weapon_MISSILE_CHARGEGUN_flavorType"/>
+	<drone_targetable>1</drone_targetable>
+	<title id="weapon_MISSILE_CHARGEGUN_title"/>
+	<tip>tip_charge</tip>
+	<short id="weapon_MISSILE_CHARGEGUN_short"/>
+	<desc id="weapon_MISSILE_CHARGEGUN_desc"/>
+	<tooltip id="weapon_MISSILE_CHARGEGUN_tooltip"/>
+	<radius>31</radius>
+	<missiles>1</missiles>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<stunChance>1</stunChance>
+	<drone_targetable>1</drone_targetable>
+	<cooldown>7.5</cooldown> <!-- 7 to 7.5 for unupgraded version -->
+	<power>3</power> <!-- 2 to 3 for unupgraded version -->
+	<chargeLevels>3</chargeLevels>
+	<cost>50</cost> <!-- 65 changed to 50 -->
+	<bp>10</bp>
+	<speed>45</speed>
+	<rarity>0</rarity> <!-- reserved for enemies -->
+	<explosion>explosion_random</explosion>
+	<projectiles>
+		<projectile count="1" fake="false">missile_burst</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargemissile</weaponArt>
+	<iconImage>missile_charge</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>W_MISSILE_CHARGEGUN_UNUPGRADED</mod-append:name> 
+</mod:findName>

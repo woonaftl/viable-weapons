@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is an upgraded version -->
+<mod:findName type="weaponBlueprint" name="LASER_BURST_2">
+	<mod-overwrite:cost>50</mod-overwrite:cost> <!-- 25 changed to 50 for consistency -->
+	<mod-overwrite:tip>tip_laser_upgraded</mod-overwrite:tip>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="LASER_BURST_2">
+	<mod:findLike type="desc">
+		<mod:setAttributes id="weapon_LASER_BURST_2_A_desc"/>
+	</mod:findLike>
+</mod:findName>

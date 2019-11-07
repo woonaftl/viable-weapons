@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_ion_stun_burst" w="232" h="46" fw="29" fh="46">weapons/w_ion_stun_burst_strip8.png</animSheet>
+
+<weaponAnim name="w_ion_stun_burst">
+	<sheet>w_ion_stun_burst</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint  x="16" y="12"/>
+	<mountPoint x="5" y="35"/>
+	<chargeImage>weapons/w_ion_stun_burst_glow.png</chargeImage>
+</weaponAnim>

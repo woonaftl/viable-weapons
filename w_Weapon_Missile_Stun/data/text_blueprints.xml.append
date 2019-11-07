@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_MISSILES_1_short">
+	<mod:setValue>Shock+</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_MISSILES_1_title">
+	<mod:setValue>Shock Missiles+</mod:setValue>
+</mod:findName>
+
+<mod:findName type="text" name="weapon_MISSILES_1_desc">
+	<mod:setValue>These missiles deal minor damage to hull, and additional damage to crew.</mod:setValue>
+</mod:findName>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MISSILES_CHARGE_HEAVY_title" language="ru">Ракет. установка «Янус»</text>
+<text name="W_MISSILES_CHARGE_HEAVY_short" language="ru">Янус</text>
+<text name="W_MISSILES_CHARGE_HEAVY_desc" language="ru">Эта установка выпускает 2 ракеты за залп.</text>
+<text name="W_MISSILES_CHARGE_HEAVY_tooltip" language="ru">Выпускает до 2 ракет на 3 ед. урона; пробивает любые щиты.</text>
+
+<text name="W_MISSILES_CHARGE_HEAVY_UPGRADED_title" language="ru">Ракет. установка «Янус»+</text>
+<text name="W_MISSILES_CHARGE_HEAVY_UPGRADED_short" language="ru">Янус+</text>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_LASER_HULL_BASIC_title">Hull Smasher Laser</text>
+<text name="W_LASER_HULL_BASIC_short">Hull Smasher</text>
+<text name="W_LASER_HULL_BASIC_desc">A powerful laser designed to maximize hull damage.</text>
+<text name="W_LASER_HULL_BASIC_tooltip">Only 1 shot, 1 damage and 2x damage in systemless rooms.</text>

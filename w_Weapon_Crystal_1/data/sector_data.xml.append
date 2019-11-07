@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="sectorDescription" name="CRYSTAL_HOME">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="W_CRYSTAL_HEAVY_1_UNUPGRADED" rarity="1"/>
+		<mod:findName type="blueprint" name="CRYSTAL_HEAVY_1">
+			<mod:removeTag/>
+		</mod:findName>
+		<mod:findName type="blueprint" name="CRYSTAL_HEAVY_2">
+			<mod:removeTag/>
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<weaponBlueprint name="W_BEAM_3_SHORT">
+	<type>BEAM</type>
+	<tip>tip_beams</tip>
+	<title id="W_BEAM_3_SHORT_title"/>
+	<short id="W_BEAM_3_SHORT_short"/>
+	<desc id="W_BEAM_3_SHORT_desc"/>
+	<tooltip id="W_BEAM_3_SHORT_tooltip"/>
+	<damage>3</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>22</cooldown>
+	<power>4</power>
+	<cost>95</cost>
+	<bp>7</bp>
+	<rarity>5</rarity>
+	<speed>3</speed>
+	<length>45</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>w_beam_3_short</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_BEAM_3_SHORT_UPGRADED">
+	<type>BEAM</type>
+	<tip>tip_beams_upgraded</tip>
+	<title id="W_BEAM_3_SHORT_UPGRADED_title"/>
+	<short id="W_BEAM_3_SHORT_UPGRADED_short"/>
+	<desc id="W_BEAM_3_SHORT_desc"/>
+	<tooltip id="W_BEAM_3_SHORT_tooltip"/>
+	<damage>3</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>21</cooldown>
+	<power>4</power>
+	<cost>95</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<speed>3</speed>
+	<length>45</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>w_beam_3_short</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>W_LASER_BURST_3_UNUPGRADED</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>LASER_BURST_3</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

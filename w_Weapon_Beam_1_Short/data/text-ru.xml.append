@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_1" language="ru">Улучшить установку «Ятаган».</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_1" language="ru">Попытаться улучшить установку «Ятаган» (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_1_UNUPGRADED_title" language="ru">Установка «Ятаган»</text>
+<text name="W_BEAM_1_UNUPGRADED_short" language="ru">Ятаган</text>
+
+<mod:findName type="text" name="weapon_BEAM_1_title">
+	<mod:setValue>Установка «Ятаган»+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BEAM_1_short">
+	<mod:setValue>Ятаган+</mod:setValue>
+</mod:findName>

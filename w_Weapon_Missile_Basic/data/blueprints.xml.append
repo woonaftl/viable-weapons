@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is an upgraded version -->
+<mod:findName type="weaponBlueprint" name="MISSILES_2_PLAYER">
+	<mod-overwrite:cost>40</mod-overwrite:cost> <!-- 38 changed to 40 -->
+	<mod-overwrite:rarity>1</mod-overwrite:rarity> <!-- 0 changed to 1 -->
+	<mod-overwrite:tip>tip_missiles_upgraded</mod-overwrite:tip>
+</mod:findName>
+
+<!-- This is an unupgraded enemy version -->
+<mod:findName type="weaponBlueprint" name="MISSILES_2">
+	<mod-overwrite:cost>40</mod-overwrite:cost> <!-- 38 changed to 40 -->
+	<mod-overwrite:cooldown>12</mod-overwrite:cooldown> <!-- 10 changed to 12 -->
+</mod:findName>

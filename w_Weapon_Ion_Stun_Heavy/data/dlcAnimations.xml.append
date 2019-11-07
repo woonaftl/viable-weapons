@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_ion_stun_heavy" w="304" h="59" fw="38" fh="59">weapons/w_ion_stun_heavy_strip8.png</animSheet>
+
+<weaponAnim name="w_ion_stun_heavy">
+	<sheet>w_ion_stun_heavy</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>5</fireFrame>
+	<firePoint  x="19" y="13"/>
+	<mountPoint x="5" y="45"/>
+	<chargeImage>weapons/w_ion_stun_heavy_glow.png</chargeImage>
+</weaponAnim>

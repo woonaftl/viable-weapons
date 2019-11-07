@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<weaponBlueprint name="W_MISSILES_FIRE"> <!-- enemy -->
+	<type>MISSILES</type>
+	<tip>tip_missiles</tip>
+	<title id="W_MISSILES_FIRE_title"/>
+	<short id="W_MISSILES_FIRE_short"/>
+	<desc id="W_MISSILES_FIRE_desc"/>
+	<tooltip id="W_MISSILES_FIRE_tooltip"/>
+	<damage>3</damage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>15</cooldown>
+	<power>3</power>
+	<cost>50</cost>
+	<bp>6</bp>
+	<rarity>0</rarity>
+	<image>missile_3</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_missiles_fire</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_MISSILES_FIRE_UPGRADED"> <!-- player -->
+	<type>MISSILES</type>
+	<tip>tip_missiles_upgraded</tip>
+	<title id="W_MISSILES_FIRE_UPGRADED_title"/>
+	<short id="W_MISSILES_FIRE_UPGRADED_short"/>
+	<desc id="W_MISSILES_FIRE_desc"/>
+	<tooltip id="W_MISSILES_FIRE_tooltip"/>
+	<damage>3</damage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>10</fireChance>
+	<breachChance>0</breachChance>
+	<stunChance>0</stunChance>
+	<cooldown>14</cooldown>
+	<power>2</power>
+	<cost>50</cost>
+	<bp>6</bp>
+	<rarity>2</rarity>
+	<image>missile_3</image>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_missiles_fire_rotated</weaponArt>
+	<iconImage>missile</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_3">
+	<mod-overwrite:rarity>0</mod-overwrite:rarity>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_BURST">
+	<mod-overwrite:rarity>0</mod-overwrite:rarity>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_BREACH">
+	<mod-overwrite:rarity>0</mod-overwrite:rarity>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="MISSILES_HULL">
+	<mod-overwrite:rarity>0</mod-overwrite:rarity>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK">
+<!-- changing order to make it not upside down in hangar -->
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="MISSILES_2_PLAYER">
+			<mod:setAttributes name="W_MISSILES_FIRE_UPGRADED"/>
+		</mod:findName>
+	</mod:findLike>
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="MISSILES_HULL">
+			<mod:setAttributes name="MISSILES_2_PLAYER"/>
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the upgraded version -->
+<mod:findName type="weaponBlueprint" name="SHOTGUN_PLAYER">
+	<mod-overwrite:cost>65</mod-overwrite:cost> <!-- 60 changed to 65 for consistency -->
+	<mod-overwrite:radius>45</mod-overwrite:radius> <!-- 40 changed to 45 for consistency -->
+	<mod-overwrite:cooldown>17</mod-overwrite:cooldown>
+	<mod-overwrite:weaponArt>w_flak_4</mod-overwrite:weaponArt>
+	<mod-overwrite:tip>tip_flak_upgraded</mod-overwrite:tip>
+	<mod:findLike type="projectiles">
+		<mod:findLike type="projectile">
+			<mod:selector>debris_large</mod:selector>
+			<mod:setAttributes count="2"/>
+		</mod:findLike>
+		<mod:findLike type="projectile">
+			<mod:selector>debris_med</mod:selector>
+			<mod:setAttributes count="2"/>
+		</mod:findLike>
+		<mod:findLike type="projectile">
+			<mod:selector>debris_small</mod:selector>
+			<mod:setAttributes count="4"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="weaponBlueprint" name="SHOTGUN">
+	<mod-overwrite:rarity>2</mod-overwrite:rarity> <!-- 1 changed to 2 -->
+	<mod-overwrite:radius>45</mod-overwrite:radius> <!-- 42 changed to 45 -->
+	<mod-overwrite:cooldown>18</mod-overwrite:cooldown> <!-- 10 changed to 18 -->
+	<mod-overwrite:rarity>2</mod-overwrite:rarity> <!-- 1 changed to 2 -->
+	<mod-overwrite:weaponArt>w_flak_4</mod-overwrite:weaponArt>
+	<mod:findLike type="projectiles">
+		<mod:findLike type="projectile">
+			<mod:selector>debris_large</mod:selector>
+			<mod:setAttributes count="2"/>	<!-- total 3 changed to 4 -->
+		</mod:findLike>
+		<mod:findLike type="projectile">
+			<mod:selector>debris_med</mod:selector>
+			<mod:setAttributes count="2"/>
+		</mod:findLike>
+		<mod:findLike type="projectile">
+			<mod:selector>debris_small</mod:selector>
+			<mod:setAttributes count="4"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ANAEROBIC_2">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="SHOTGUN_PLAYER">
+			<mod:removeTag />
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

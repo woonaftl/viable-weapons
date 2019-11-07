@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="LASER_HULL_2">
+	<mod-overwrite:fireChance>0</mod-overwrite:fireChance> <!-- 1 changed to 0 -->
+	<mod-overwrite:speed>75</mod-overwrite:speed> <!-- 90 changed to 75 -->
+	<mod-overwrite:image>w_laser_hull</mod-overwrite:image>
+	<mod-overwrite:weaponArt>w_laser_hull_3</mod-overwrite:weaponArt>
+</mod:findName>
+
+<weaponBlueprint name="W_LASER_HULL_2_UPGRADED">
+	<type>LASER</type>
+	<title id="W_LASER_HULL_2_UPGRADED_title"/>
+	<short id="W_LASER_HULL_2_UPGRADED_short"/>
+	<tip>tip_hull_upgraded</tip>
+	<desc id="weapon_LASER_HULL_2_desc"/>
+	<tooltip id="weapon_LASER_HULL_2_tooltip"/>
+	<damage>1</damage>
+	<shots>3</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance> <!-- 1 changed to 0 -->
+	<breachChance>3</breachChance>
+	<cooldown>14</cooldown> <!-- 15 to 14 for upgraded version -->
+	<hullBust>1</hullBust>
+	<power>2</power> <!-- 3 to 2 for upgraded version -->
+	<cost>75</cost>
+	<bp>7</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<image>w_laser_hull</image>
+	<speed>75</speed> <!-- 90 changed to 75 -->
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>w_laser_hull_3</weaponArt>
+	<iconImage>laserH</iconImage>
+</weaponBlueprint>

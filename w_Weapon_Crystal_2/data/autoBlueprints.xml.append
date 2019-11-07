@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_CRYSTAL">
+	<mod-append:name>W_CRYSTAL_BURST_1_UNUPGRADED</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>CRYSTAL_BURST_1</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+	<mod:findLike type="name">
+		<mod:selector>CRYSTAL_BURST_2</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_FIRE" language="ru">Улучшить зажигательный луч.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_FIRE" language="ru">Попытаться улучшить зажигательный луч (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_FIRE_UPGRADED_short" language="ru">Зажиг. луч+</text>
+<text name="W_BEAM_FIRE_UPGRADED_title" language="ru">Зажигательный луч+</text>

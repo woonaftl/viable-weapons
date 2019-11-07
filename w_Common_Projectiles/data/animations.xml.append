@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_laser_hull" w="200" h="20" fw="50" fh="20">weapons/w_laser_hull_strip4.png</animSheet>
+
+<anim name="w_laser_hull">
+	<sheet>w_laser_hull</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BOMB_HEAL">
+	<mod-overwrite:cooldown>8</mod-overwrite:cooldown> <!-- 18 changed to 8 -->
+	<mod-overwrite:cost>30</mod-overwrite:cost> <!-- 40 changed to 30 -->
+	<mod-overwrite:rarity>5</mod-overwrite:rarity> <!-- 3 changed to 5 -->
+</mod:findName>

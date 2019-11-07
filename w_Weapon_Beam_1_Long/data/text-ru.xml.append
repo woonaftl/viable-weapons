@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_LONG" language="ru">Улучшить установку «Пика».</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_LONG" language="ru">Попытаться улучшить установку «Пика» (возможен неблагоприятный исход).</text>
+
+<text name="W_BEAM_LONG_UPGRADED_title" language="ru">Установка «Пика»+</text>
+<text name="W_BEAM_LONG_UPGRADED_short" language="ru">Пика+</text>

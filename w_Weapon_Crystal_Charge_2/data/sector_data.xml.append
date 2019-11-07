@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="sectorDescription" name="CRYSTAL_HOME">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="W_CRYSTAL_CHARGE_2" rarity="4"/>
+	</mod:findLike>
+</mod:findName>

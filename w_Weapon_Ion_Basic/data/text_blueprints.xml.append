@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_ION_1_title">
+	<mod:setValue>Basic Ion</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_ION_1_short">
+	<mod:setValue>Basic Ion</mod:setValue>
+</mod:findName>

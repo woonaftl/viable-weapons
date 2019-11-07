@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="BEAM_BIO">
+	<mod-append:stun>10</mod-append:stun> <!-- 0 changed to 10 -->
+</mod:findName>
+
+<blueprintList name="W_BEAM_BIO_LIST">
+	<name>BEAM_BIO</name>
+	<name>W_BEAM_BIO_UPGRADED</name>
+</blueprintList>
+
+<weaponBlueprint name="W_BEAM_BIO_UPGRADED">
+	<type>BEAM</type>
+	<tip>tip_crew_beam_upgraded</tip>
+	<title id="W_BEAM_BIO_UPGRADED_title"/>
+	<short id="W_BEAM_BIO_UPGRADED_short"/>
+	<desc id="weapon_BEAM_BIO_desc"/>
+	<tooltip id="weapon_BEAM_BIO_tooltip"/>
+	<damage>0</damage>
+	<persDamage>4</persDamage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<stun>10</stun>
+	<cooldown>15</cooldown> <!-- 16 to 15 for upgraded version -->
+	<color>
+		<r>255</r>
+		<g>110</g>
+		<b>0</b>
+	</color>
+	<speed>13</speed>
+	<power>1</power> <!-- 2 to 1 for upgraded version -->
+	<cost>50</cost>
+	<bp>6</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<length>140</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>beam_bio</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="BEAM_BIO">
+			<mod:setAttributes name="W_BEAM_BIO_UPGRADED"/>
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

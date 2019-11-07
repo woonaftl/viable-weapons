@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_crystal_charge_2_charge" w="82" h="59" fw="41" fh="59">weapons/w_crystal_charge_2_charges.png</animSheet>
+
+<anim name="w_crystal_charge_2_charge">
+	<sheet>w_crystal_charge_2_charge</sheet>
+	<desc length="2" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="w_crystal_charge_2" w="615" h="59" fw="41" fh="59">weapons/w_crystal_charge_2_strip15.png</animSheet>
+
+<weaponAnim name="w_crystal_charge_2">
+	<sheet>w_crystal_charge_2</sheet>
+	<desc length="15" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="21" y="10"/>
+	<mountPoint x="10" y="43"/>
+	<boost>w_crystal_charge_2_charge</boost>
+ <chargeImage>weapons/w_crystal_charge_2_glow.png</chargeImage>
+</weaponAnim>

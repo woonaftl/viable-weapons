@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_HEAVY_CHARGE_3" language="ru">Улучшить тяжелый лазер с накопителем.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_HEAVY_CHARGE_3" language="ru">Попытаться улучшить тяжелый лазер с накопителем (возможен неблагоприятный исход).</text>
+
+<text name="W_LASER_HEAVY_CHARGE_3_title" language="ru">Тяжелый лазер с накопителем</text>
+<text name="W_LASER_HEAVY_CHARGE_3_short" language="ru">Н. тяж.</text>
+<text name="W_LASER_HEAVY_CHARGE_3_desc" language="ru">Мощная модель тяжелого лазера, способная выпустить до 3 снарядов.</text>
+<text name="W_LASER_HEAVY_CHARGE_3_tooltip" language="ru">Накопив заряд, может сделать больше выстрелов (до 3).</text>
+
+<text name="W_LASER_HEAVY_CHARGE_3_UPGRADED_title" language="ru">Тяжелый лазер с накопителем+</text>
+<text name="W_LASER_HEAVY_CHARGE_3_UPGRADED_short" language="ru">Н. тяж.+</text>

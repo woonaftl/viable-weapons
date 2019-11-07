@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_BIO">Upgrade Anti-Bio Beam.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_BIO">Ask to upgrade Anti-Bio Beam (risk of negative outcome).</text>
+
+<text name="W_BEAM_BIO_UPGRADED_title">Anti-Bio Beam+</text>
+<text name="W_BEAM_BIO_UPGRADED_short">Anti-Bio Beam+</text>
+
+<mod:findName type="text" name="weapon_BEAM_BIO_desc">
+	<mod:setValue>This terrifying beam does no damage to ship itself but rips through organic material, dealing heavy damage to crewmembers, and paralyzing them.</mod:setValue>
+</mod:findName>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod-append:name>W_MISSILES_BREACH</mod-append:name> 
+	<mod:findLike type="name">
+		<mod:selector>MISSILES_3</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+	<mod:findLike type="name">
+		<mod:selector>MISSILES_BREACH</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

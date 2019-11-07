@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_ION_STUN_HEAVY">Upgrade Heavy Ion Stunner.</text>
+<text name="W_UPGRADE_FREE_TEXT_ION_STUN_HEAVY">Ask to upgrade Heavy Ion Stunner (risk of negative outcome).</text>
+
+<text name="W_ION_STUN_HEAVY_title">Heavy Ion Stunner</text>
+<text name="W_ION_STUN_HEAVY_short">Heavy Stunner</text>
+<text name="W_ION_STUN_HEAVY_desc">Ion weapons can disable systems without causing hull damage. This ion weapon stuns crew inside the room for 10 seconds.</text>
+<text name="W_ION_STUN_HEAVY_tooltip">Fires a single blast that does 3 ion damage. Can hit and disable shields as well as systems.</text>
+
+<text name="W_ION_STUN_HEAVY_UPGRADED_title">Heavy Ion Stunner+</text>
+<text name="W_ION_STUN_HEAVY_UPGRADED_short">Heavy Stunner+</text>

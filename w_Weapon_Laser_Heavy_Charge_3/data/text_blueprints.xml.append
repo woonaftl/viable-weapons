@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_HEAVY_CHARGE_3">Upgrade Heavy Laser Charger.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_HEAVY_CHARGE_3">Ask to upgrade Heavy Laser Charger (risk of negative outcome).</text>
+
+<text name="W_LASER_HEAVY_CHARGE_3_title">Heavy Laser Charger</text>
+<text name="W_LASER_HEAVY_CHARGE_3_short">Hvy Ch.</text>
+<text name="W_LASER_HEAVY_CHARGE_3_desc">This model of heavy laser can launch up to 3 projectiles in quick succession dealing 2 damage with every shot.</text>
+<text name="W_LASER_HEAVY_CHARGE_3_tooltip">Fires more shots the more it charges, up to a max of 3.</text>
+
+<text name="W_LASER_HEAVY_CHARGE_3_UPGRADED_title">Heavy Laser Charger+</text>
+<text name="W_LASER_HEAVY_CHARGE_3_UPGRADED_short">Hvy Ch.+</text>

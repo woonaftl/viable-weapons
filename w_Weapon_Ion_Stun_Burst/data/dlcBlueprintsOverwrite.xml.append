@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_3">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="ION_STUN">
+			<mod:setAttributes name="W_ION_STUN_BURST_UPGRADED"/>
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_MANTIS">
+	<mod-append:name>W_ION_STUN_BURST</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>ION_STUN</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_FED">
+	<mod-append:name>W_ION_STUN_BURST</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>ION_STUN</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_WEAPONS_CIRCLE">
+	<mod-append:name>W_ION_STUN_BURST</mod-append:name>
+	<mod:findLike type="name">
+		<mod:selector>ION_STUN</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_MISSILE_CHARGEGUN_title">
+	<mod:setValue>Swarm Missiles+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILE_CHARGEGUN_short">
+	<mod:setValue>Swarm+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_MISSILE_CHARGEGUN_desc">
+	<mod:setValue>Swarm launcher can fire up to 3 missiles.</mod:setValue>
+</mod:findName>

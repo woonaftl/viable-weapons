@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_CHAINGUN_2" language="ru">Улучшить «Вулкан» с разогревом.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_CHAINGUN_2" language="ru">Попытаться улучшить «Вулкан» с разогревом (возможен неблагоприятный исход).</text>
+
+<text name="W_LASER_CHAINGUN_2_UPGRADED_title" language="ru">«Вулкан» с разогревом+</text>
+<text name="W_LASER_CHAINGUN_2_UPGRADED_short" language="ru">Вулкан+</text>

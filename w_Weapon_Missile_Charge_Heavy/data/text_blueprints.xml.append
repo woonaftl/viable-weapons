@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MISSILES_CHARGE_HEAVY_title">Janus Missiles</text>
+<text name="W_MISSILES_CHARGE_HEAVY_short">Janus</text>
+<text name="W_MISSILES_CHARGE_HEAVY_desc">This launcher can fire up to two missiles.</text>
+<text name="W_MISSILES_CHARGE_HEAVY_tooltip">Fires up to 2 missiles; 3 damage; pierces all shields.</text>
+
+<text name="W_MISSILES_CHARGE_HEAVY_UPGRADED_title">Janus Missiles+</text>
+<text name="W_MISSILES_CHARGE_HEAVY_UPGRADED_short">Janus+</text>

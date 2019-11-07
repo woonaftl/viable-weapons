@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_BOMB_FIRE_desc">
+	<mod:setValue>Self-teleporting explosive designed to light fires. Can target your own ship.</mod:setValue>
+</mod:findName>

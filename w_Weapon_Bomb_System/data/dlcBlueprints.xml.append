@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="WEAPONS_ANAEROBIC">
+	<mod:findLike type="name">
+		<mod:selector>BOMB_1</mod:selector>
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

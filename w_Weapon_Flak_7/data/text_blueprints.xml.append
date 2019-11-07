@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_SHOTGUN_2">Upgrade Flak Gun Mark II.</text>
+<text name="W_UPGRADE_FREE_TEXT_SHOTGUN_2">Ask to upgrade Flak Gun Mark II (risk of negative outcome).</text>
+
+<text name="W_SHOTGUN_2_UPGRADED_title">Flak Gun Mark II+</text>
+<text name="W_SHOTGUN_2_UPGRADED_short">Flak II+</text>

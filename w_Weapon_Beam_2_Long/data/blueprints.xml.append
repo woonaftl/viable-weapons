@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<weaponBlueprint name="W_BEAM_2_LONG">
+	<type>BEAM</type>
+	<tip>tip_beams</tip>
+	<title id="W_BEAM_2_LONG_title"/>
+	<short id="W_BEAM_2_LONG_short"/>
+	<desc id="W_BEAM_2_LONG_desc"/>
+	<tooltip id="W_BEAM_2_LONG_tooltip"/>
+	<damage>2</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>20</cooldown>
+	<power>3</power>
+	<cost>80</cost>
+	<bp>7</bp>
+	<rarity>5</rarity>
+	<speed>13</speed>
+	<length>140</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>w_beam_2_long</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="W_BEAM_2_LONG_UPGRADED">
+	<type>BEAM</type>
+	<tip>tip_beams_upgraded</tip>
+	<title id="W_BEAM_2_LONG_UPGRADED_title"/>
+	<short id="W_BEAM_2_LONG_UPGRADED_short"/>
+	<desc id="W_BEAM_2_LONG_desc"/>
+	<tooltip id="W_BEAM_2_LONG_tooltip"/>
+	<damage>2</damage>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>19</cooldown>
+	<power>2</power>
+	<cost>80</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<speed>13</speed>
+	<length>140</length>
+	<image>beam_contact</image>
+	<launchSounds>
+		<sound>beam2</sound>
+	</launchSounds>
+	<weaponArt>w_beam_2_long</weaponArt>
+	<iconImage>beam</iconImage>
+</weaponBlueprint>

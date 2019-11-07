@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="PIRATE_STATION_CROPS">
+	<mod:findLike type="choice">
+		<mod:selector req="BEAM_FIRE"/>
+		<mod:setAttributes req="W_BEAM_FIRE_LIST"/>
+	</mod:findLike>
+</mod:findName>

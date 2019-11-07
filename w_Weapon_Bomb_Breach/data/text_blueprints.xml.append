@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_title">
+	<mod:setValue>Breach Bomb</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_short">
+	<mod:setValue>Breach</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_desc">
+	<mod:setValue>Self-teleporting explosive. Causes a hull breach. Can target your own ship.</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_BOMB_BREACH_1_tooltip">
+	<mod:setValue>Bomb weapon; requires a missile; causes a hull breach. Can target your own ship.</mod:setValue>
+</mod:findName>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="weaponBlueprint" name="LASER_BURST_5">
+	<mod-overwrite:cooldown>17</mod-overwrite:cooldown> <!-- 19 changed to 17 -->
+	<mod-overwrite:fireChance>1</mod-overwrite:fireChance> <!-- 0 changed to 1 -->
+</mod:findName>
+
+<weaponBlueprint name="W_LASER_BURST_5_UPGRADED">
+	<type>LASER</type>
+	<title id="weapon_LASER_BURST_5_title"/>
+	<short id="weapon_LASER_BURST_5_short"/>
+	<tip>tip_laser_upgraded</tip>
+	<desc id="weapon_LASER_BURST_5_desc"/>
+	<tooltip id="weapon_LASER_BURST_5_tooltip"/>
+	<damage>1</damage>
+	<shots>5</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance> <!-- 0 changed to 1 -->
+	<breachChance>0</breachChance>
+	<cooldown>16</cooldown> <!-- 17 to 16 for upgraded version -->
+	<power>3</power> <!-- 4 to 3 for upgraded version -->
+	<cost>95</cost>
+	<bp>10</bp>
+	<rarity>0</rarity> <!-- upgraded version unavailable -->
+	<image>laser_light2</image>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_burst_5</weaponArt>
+	<iconImage>laser</iconImage>
+</weaponBlueprint>

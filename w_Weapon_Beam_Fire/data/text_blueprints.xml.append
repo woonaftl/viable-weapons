@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_BEAM_FIRE">Upgrade Fire Beam.</text>
+<text name="W_UPGRADE_FREE_TEXT_BEAM_FIRE">Ask to upgrade Fire Beam (risk of negative outcome).</text>
+
+<text name="W_BEAM_FIRE_UPGRADED_title">Fire Beam+</text>
+<text name="W_BEAM_FIRE_UPGRADED_short">Fire Beam+</text>

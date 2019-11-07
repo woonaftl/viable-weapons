@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animSheet name="w_missiles_charge_heavy_charge" w="56" h="58" fw="28" fh="58">weapons/w_missiles_charge_heavy_charges.png</animSheet>
+
+<anim name="w_missiles_charge_heavy_charge">
+	<sheet>w_missiles_charge_heavy_charge</sheet>
+	<desc length="2" x="0" y="0"/>
+	<time>1.0</time>
+</anim>
+
+<animSheet name="w_missiles_charge_heavy" w="224" h="58" fw="28" fh="58">weapons/w_missiles_charge_heavy_strip8.png</animSheet>
+
+<weaponAnim name="w_missiles_charge_heavy">
+	<sheet>w_missiles_charge_heavy</sheet>
+	<desc length="8" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint  x="17" y="20" charge="0"/>
+	<mountPoint x="7" y="47"/>
+	<boost>w_missiles_charge_heavy_charge</boost>
+</weaponAnim>

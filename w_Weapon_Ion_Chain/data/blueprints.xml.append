@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_2">
+	<mod:findLike type="weaponList">
+		<mod:findName type="weapon" name="ION_2">
+			<mod:setAttributes name="ION_CHAINGUN"/>
+		</mod:findName>
+	</mod:findLike>
+</mod:findName>

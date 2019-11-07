@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_UPGRADE_TEXT_LASER_BURST_3">Upgrade Burst Laser Mark II.</text>
+<text name="W_UPGRADE_FREE_TEXT_LASER_BURST_3">Ask to upgrade Burst Laser Mark II (risk of negative outcome).</text>
+
+<text name="W_LASER_BURST_3_UNUPGRADED_title">Burst Laser Mark II</text>
+<text name="W_LASER_BURST_3_UNUPGRADED_short">Burst Laser II</text>
+
+<mod:findName type="text" name="weapon_LASER_BURST_3_title">
+	<mod:setValue>Burst Laser Mark II+</mod:setValue>
+</mod:findName>
+<mod:findName type="text" name="weapon_LASER_BURST_3_short">
+	<mod:setValue>Burst Laser II+</mod:setValue>
+</mod:findName>
