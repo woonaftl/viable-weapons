@@ -15,8 +15,8 @@ Prefix = 'w_'
 Output = 'Viable Weapons' # aka mod title
 ForumLink = 'none'
 AlternateLinks = ['https://github.com/woonaftl/viable-weapons']
-Release = '1'
-ProjectDesc = "Thanks to bamalf, and kix for testing and feedback\n\nA modification which focuses on rebalancing FTL weapons. There are balance changes, new weapons, and a simple upgrade system.\n\nGoals of the mod:\nAll weapons in the game have to be viable;\nThere are no clearly overpowered weapons;\nEnemies need to have enough projectiles to hurt the player, even in early game, but fewer missiles than in vanilla as they're difficult to deal with;\nMake it as easy as possible to get used to the mod while keeping things refreshing and fun.\n\nRIGHT NOW, THE REPAIR AND UPGRADE BEACON USE THE SAME MARKER DUE TO MODDING LIMITATIONS."
+Release = '1.1'
+ProjectDesc = "REQUIRES HYPERSPACE 0.3+!\n\nThanks to TheSwiftTiger and Winderps for creating Hyperspace.\n\nThanks to bamalf, and kix for testing and feedback.\n\nA modification which focuses on rebalancing FTL weapons. There are balance changes, new weapons, and a simple upgrade system.\n\nGoals of the mod:\nAll weapons in the game have to be viable;\nThere are no clearly overpowered weapons;\nEnemies need to have enough projectiles to hurt the player, even in early game, but fewer missiles than in vanilla as they're difficult to deal with;\nMake it as easy as possible to get used to the mod while keeping things refreshing and fun."
 ProtectedXML = ( 
     'achievements.xml', 
     'anaerobic_bomber.xml', 

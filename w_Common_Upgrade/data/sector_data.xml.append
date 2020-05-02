@@ -14,28 +14,28 @@
 	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_SKETCHY" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="REBEL_SECTOR_MINIBOSS">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="0" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="REBEL_SECTOR">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="0" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="MANTIS_SECTOR">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="MANTIS_HOME">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="NEBULA_SECTOR">
 	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="0" max="1"/>
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="0" max="2"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="SLUG_HOME">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_SKETCHY" min="0" max="1"/>
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="0" max="2"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_SKETCHY" min="1" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="SLUG_SECTOR">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_SKETCHY" min="0" max="1"/>
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="0" max="2"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_SKETCHY" min="1" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="ZOLTAN_SECTOR">
 	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_LEGIT" min="1" max="1"/>
@@ -46,14 +46,14 @@
 	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_NEBULA" min="0" max="1"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="ROCK_SECTOR">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="ROCK_HOME">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="CRYSTAL_HOME">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="0" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="LANIUS_SECTOR">
-	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="0" max="1"/>
+	<mod-append:event name="W_UPGRADE_WEAPON_EVENT_LIST_ALL" min="1" max="2"/>
 </mod:findName>

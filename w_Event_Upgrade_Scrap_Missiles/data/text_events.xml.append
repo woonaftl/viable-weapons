@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<text name="W_UPGRADE_SCRAP_MISSILES_TEXT_0">The system you arrived to specializes in mining asteroids and forging extracted metals into weapons. They are ready to upgrade any of your weapons in exchange for some scrap and explosives.
-
-Tip: Upgraded weapons require 1 less power and charge faster, than stock weapons. Upgraded weapons and weapons that cost 1 power cannot be upgraded.</text>
-<text name="W_UPGRADE_SCRAP_MISSILES_TEXT_1">Leave.</text>
-<text name="W_UPGRADE_SCRAP_MISSILES_TEXT_2">Your weapon is upgraded. It uses less power now, and charges faster.</text>

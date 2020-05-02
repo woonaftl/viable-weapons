@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<mod:findName type="text" name="map_icon_repair">
-	<mod:setValue>UPGRADE/REPAIR</mod:setValue>
-</mod:findName>
+<text name="w_map_icon_upgrade">UPGRADE</text>
 
 <text name="tip_beams_upgraded">Tip: For every shield bar on the enemy, a beam's damage is reduced by one. For example, a three damage beam against two shield bars will cause one damage in every room it hits.
 
